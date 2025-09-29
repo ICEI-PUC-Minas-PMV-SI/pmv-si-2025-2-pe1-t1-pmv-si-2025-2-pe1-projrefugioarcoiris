@@ -1,4 +1,4 @@
-# Título do Projeto
+# Refúgio Arco-Íris
 
 `CURSO: Sistemas de Informação`
 
@@ -6,20 +6,21 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+
+O projeto Refugio Arco-Íris tem como objetivo desenvolver um sistema web front-end que concentre em um único ambiente digital, informações essenciais e de apoio voltadas à comunidade LGBTQIA+, reunindo recursos como a indicação de casas de acolhimento e coletivos que oferecem suporte comunitário, orientações e contatos de apoio psicológico inclusivo,  disponibilização de materiais informativos sobre prevenção ,transição e saúde, orientações voltadas ao mercado de trabalho, como a divulgação de iniciativas que promovam a inclusão profissional e educacional e legislação.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Vitória de Santana Silveira
+* Beatriz de Oliveira
+* Isabela Lourenço Silva
+* Álvaro Ferreira Godinho
 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Marco Rodrigo Costa
 
 # Planejamento
 
