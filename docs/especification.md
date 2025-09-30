@@ -2,10 +2,11 @@
 Perfis de Usuários 
 	Para garantir que o projeto atenda às reais necessidades do público-alvo, foram definidos perfis representativos com base em vivências comuns e desafios enfrentados. A seguir, apresentamos alguns perfis que ilustram grupos prioritários para o desenvolvimento da solução: 
 
-  |Perfil 01 – Mulheres Transexuais                                                                                                                       |
-    |-----------------|----------------|
-    | Descrição:      | Mulheres transexuais geralmente expulsas de casa pela família ou que enfrentam discriminação ao se inserir no mercado de trabalho.| 
-    | Beto            | 30             | 
+  | Perfil 01 – Mulheres Transexuais  | 
+| :--- | :---: | 
+|Descrição:   | Mulheres transexuais geralmente expulsas de casa pela família ou que enfrentam discriminação ao se inserir no mercado de trabalho.  | 
+| Bob | 30 | 
+| Carol | 22 |
 
 ## Personas
 
