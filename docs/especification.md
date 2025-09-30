@@ -1,10 +1,11 @@
-# Especificações do Projeto
+# Especificação do Projeto 
+Perfis de Usuários 
+	Para garantir que o projeto atenda às reais necessidades do público-alvo, foram definidos perfis representativos com base em vivências comuns e desafios enfrentados. A seguir, apresentamos alguns perfis que ilustram grupos prioritários para o desenvolvimento da solução: 
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
-
-Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
+  |Perfil 01 – Mulheres Transexuais                                                                                                                       |
+    |-----------------|----------------|
+    | Descrição:      | Mulheres transexuais geralmente expulsas de casa pela família ou que enfrentam discriminação ao se inserir no mercado de trabalho.| 
+    | Beto            | 30             | 
 
 ## Personas
 
