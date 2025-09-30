@@ -13,6 +13,12 @@ Perfis de Usuários
 
 
 
+# Perfis - População em Situação de Vulnerabilidade
+
+| Perfil   | Grupo               | Descrição                                                                                                                                      | Necessidades                                                                                                    |
+|----------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Perfil 01| Mulheres Transexuais| Geralmente expulsas de casa pela família ou enfrentam discriminação ao se inserir no mercado de trabalho.                                      | - Acesso a casas de acolhimento (lugares seguros) <br> - Conhecimento de empresas com vagas inclusivas/diversas |
+| Perfil 02| Pessoas Não Binárias| Enfrentam episódios de depressão e ansiedade agravados pelo preconceito no ambiente familiar e de trabalho. Dificuldade em encontrar profissionais de saúde mental inclusivos, o que gera insegurança ao buscar atendimento. | - Apoio psicológico inclusivo e livre de preconceito <br> - Atendimento que ofereça pertencimento e segurança    |
 
 
 
