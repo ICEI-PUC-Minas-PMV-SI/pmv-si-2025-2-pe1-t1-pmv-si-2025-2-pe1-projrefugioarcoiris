@@ -1,54 +1,25 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+  A vida em sociedade é marcada por diferentes grupos sociais, culturas e formas de existir. Porém, nem todos esses grupos recebem o mesmo nível de respeito, aceitação e oportunidades. Entre as chamadas minorias sociais, a comunidade LGBTQIA+ se destaca como uma das que mais enfrentam barreiras relacionadas ao preconceito, discriminação e exclusão.  Esses desafios não se restringem apenas ao convívio social, mas se refletem em diversas áreas como o acesso à saúde, ao mercado de trabalho, à educação e até mesmo ao ambiente familiar. Muitas vezes, pessoas LGBTQIA+ se encontram em situações de vulnerabilidade, sem apoio adequado ou com dificuldades para encontrar informações confiáveis sobre serviços de acolhimento, segurança e suporte psicológico sendo assim necessário a criação e a disponibilização de espaços que ajudem a reduzir esses impactos sociais.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+Pessoas LGBTQIA+ enfrentam alta vulnerabilidade social marcada pela falta de acolhimento familiar, rejeição e violência. Muitas vezes, ao revelar sua orientação sexual ou identidade de gênero, são expulsas de casa, tendo o direito à moradia digna negado. A falta de acolhimento em casa muitas vezes leva ao isolamento e até à situação de rua, expondo essas pessoas a riscos maiores de violência, insegurança e precariedade. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Essa parte da população encontra barreiras significativas no acesso a serviços básicos, como saúde, emprego, educação, assistência social e moradia. A discriminação e a falta de preparo de muitos profissionais resultam em atendimentos excludentes ou desumanizados, reforçando a sensação de invisibilidade. Ao buscar ajuda, as dificuldades se intensificam diante da ausência de informações centralizadas, da escassez de locais de acolhimento seguros e da falta de canais rápidos e acessíveis de suporte. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo do projeto é desenvolver um sistema web front-end que concentre em um único ambiente digital, informações essenciais e de apoio voltadas à comunidade LGBTQIA+, reunindo recursos que auxiliem pessoas em situação de vulnerabilidade, como a indicação de casas de acolhimento e coletivos que oferecem suporte comunitário, orientações e contatos de apoio psicológico inclusivo, além de disponibilizar materiais informativos sobre prevenção. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O sistema também pretende contribuir para a empregabilidade da comunidade, disponibilizando conteúdos e orientações voltadas ao mercado de trabalho, como a divulgação de iniciativas que promovam a inclusão profissional e educacional. Além disso, busca ampliar o acesso a informações sobre direitos e legislações conforme previstos na Constituição Federal de 1988 e em estatutos específicos de proteção social, a fim promover justiça e segurança jurídica, fortalecendo a consciência cidadã e oferecendo meios de proteção contra situações de discriminação. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A justificativa do projeto baseia-se na necessidade de confrontar dificuldades vividas pela população LGBTQIA+, que tem seus direitos negados e encontra barreiras no acesso a serviços básicos como saúde, moradia, trabalho dentre outros. Nesse sentido, o projeto justifica-se por buscar alternativas de acolhimento e suporte, contribuindo para a redução das desigualdades, para a garantia de direitos e a construção de uma sociedade mais justa e inclusiva. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+O público-alvo do site é composto pela comunidade LGBTQIA+ em geral, incluindo pessoas que enfrentam situações de vulnerabilidade social ou que buscam saber sobre seus direitos e leis que asseguram proteção contra a discriminação. Outro grupo importante é formado por pessoas interessadas em orientações sobre prevenção e ajuda psicológica. Além disso, o sistema pode atender familiares, amigos, que desejam acessar conteúdos confiáveis sobre leis para oferecer suporte adequado e promover a inclusão. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+ 
