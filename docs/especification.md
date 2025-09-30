@@ -3,34 +3,17 @@ Perfis de Usuários
 	Para garantir que o projeto atenda às reais necessidades do público-alvo, foram definidos perfis representativos com base em vivências comuns e desafios enfrentados. A seguir, apresentamos alguns perfis que ilustram grupos prioritários para o desenvolvimento da solução: 
 
 
-
 # Perfis - População em Situação de Vulnerabilidade
 
-| Perfil   | Grupo               | Descrição                                                                                                                                      | Necessidades                                                                                                    |
-|----------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Perfil 01| Mulheres Transexuais| Geralmente expulsas de casa pela família ou enfrentam discriminação ao se inserir no mercado de trabalho.                                      |  Acesso a casas de acolhimento (lugares seguros) <br>  Conhecimento de empresas com vagas inclusivas/diversas |
+| Perfil   | Grupo               | Descrição                                                                                                                                                                                                                         | Necessidades                                                                                                                        |
+|----------|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Perfil 01| Mulheres Transexuais| Geralmente expulsas de casa pela família ou enfrentam discriminação ao se inserir no mercado de trabalho.                                                                                                                         | - Acesso a casas de acolhimento (lugares seguros) <br> - Conhecimento de empresas com vagas inclusivas/diversas                     |
+| Perfil 02| Pessoas Não Binárias| Enfrentam episódios de depressão e ansiedade agravados pelo preconceito no ambiente familiar e de trabalho. Dificuldade em encontrar profissionais de saúde mental inclusivos, o que gera insegurança ao buscar atendimento.      | - Apoio psicológico inclusivo e livre de preconceito <br> - Atendimento que ofereça pertencimento e segurança                        |
+| Perfil 03| Bissexuais          | Enfrentam dificuldades para entender como se prevenir em relações sexuais com pessoas do mesmo gênero, colocando sua saúde em risco.                                                                                             | - Material explicativo sobre doenças sexualmente transmissíveis <br> - Orientações sobre medidas de prevenção                        |
+| Perfil 04| Homens Gays         | Em fase madura da vida, trabalha e mora com seu parceiro. Apesar de viver uma relação estável, sente reflexos do preconceito histórico enfrentado por sua geração, especialmente no reconhecimento e aceitação do casamento homoafetivo. | - Informações claras sobre direitos (casamento, herança, previdência e adoção) <br> - Espaços de convivência que valorizem casais maduros |
+| Perfil 05| Familiares          | Familiares que querem ajudar, mas não sabem como agir quando alguém da família sofre homofobia.                                                                                                                                   | - Acesso a notícias e pesquisas <br> - Apoio profissional para orientação e aconselhamento                                           |
 
 
-
-
-# Perfis - População em Situação de Vulnerabilidade
-
-| Perfil   | Grupo               | Descrição                                                                                                                                      | Necessidades                                                                                                    |
-|----------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Perfil 01| Mulheres Transexuais| Geralmente expulsas de casa pela família ou enfrentam discriminação ao se inserir no mercado de trabalho.                                      | - Acesso a casas de acolhimento (lugares seguros) <br> - Conhecimento de empresas com vagas inclusivas/diversas |
-| Perfil 02| Pessoas Não Binárias| Enfrentam episódios de depressão e ansiedade agravados pelo preconceito no ambiente familiar e de trabalho. Dificuldade em encontrar profissionais de saúde mental inclusivos, o que gera insegurança ao buscar atendimento. | - Apoio psicológico inclusivo e livre de preconceito <br> - Atendimento que ofereça pertencimento e segurança    |
-
-
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
