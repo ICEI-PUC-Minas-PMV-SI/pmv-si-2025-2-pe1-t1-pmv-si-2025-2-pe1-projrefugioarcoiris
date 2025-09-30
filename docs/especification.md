@@ -35,7 +35,7 @@ Histórias de usuário são simples descrições do que o usuário precisa ou de
 
 ## Requisitos
 
-# # Requisitos Funcionais 
+#  Requisitos Funcionais 
    Requisitos funcionais mostram as funções e tarefas que devem estar disponíveis para o usuário. Em resumo, são as ações que o sistema deve oferecer para realmente ser útil. 
 
 
