@@ -7,14 +7,5 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-| Perfil 01 – Mulheres Transexuais  | 
-| :--- | :---: | 
-|Descrição:   | :---: | | Mulheres transexuais geralmente expulsas de casa pela família ou que enfrentam discriminação ao se inserir no mercado de trabalho.  |
-|Necessidades:  | :---: | | Acesso a lugares seguros como casas de acolhimento e conhecimento de empresas que tem vagas específicas voltadas a um público mais diversos. |
 
-
-| Perfil 01 – Mulheres Transexuais  | 
-| Name     | Character |
-| ---      | ---       |
-| Descrição:  | `         |
-| Necessidades: | \| Acesso a lugares seguros como casas de acolhimento e conhecimento de empresas que tem vagas específicas voltadas a um público mais diversos.       |
+![Logo do GitHub](https://www.figma.com/design/Scia9woIUoPAopthxkmmgj/Etapa-02-Projetoweb?node-id=0-1&p=f&t=jIo7RKnlfm0zJa5e-0)
