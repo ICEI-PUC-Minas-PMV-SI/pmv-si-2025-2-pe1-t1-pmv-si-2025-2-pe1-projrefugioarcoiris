@@ -8,7 +8,7 @@ Perfis de Usuários
 
 | Perfil   | Grupo               | Descrição                                                                                                                                      | Necessidades                                                                                                    |
 |----------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Perfil 01| Mulheres Transexuais| Geralmente expulsas de casa pela família ou enfrentam discriminação ao se inserir no mercado de trabalho.                                      | - Acesso a casas de acolhimento (lugares seguros) <br> - Conhecimento de empresas com vagas inclusivas/diversas |
+| Perfil 01| Mulheres Transexuais| Geralmente expulsas de casa pela família ou enfrentam discriminação ao se inserir no mercado de trabalho.                                      |  Acesso a casas de acolhimento (lugares seguros) <br>  Conhecimento de empresas com vagas inclusivas/diversas |
 
 
 
