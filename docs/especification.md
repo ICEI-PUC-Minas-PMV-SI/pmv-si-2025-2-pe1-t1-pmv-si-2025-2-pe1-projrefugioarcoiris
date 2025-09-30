@@ -4,15 +4,17 @@ Perfis de Usuários
 
 
 
-| Perfil 01 – Mulheres Transexuais  |
-| ---      | ---       |
-| Descrição:  | `         |
-| Necessidades: | \| Acesso a lugares seguros como casas de acolhimento e conhecimento de empresas que tem vagas específicas voltadas a um público mais diversos.       |
-## Personas
+# Perfis - População em Situação de Vulnerabilidade
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+| Perfil   | Grupo               | Descrição                                                                                                                                      | Necessidades                                                                                                    |
+|----------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Perfil 01| Mulheres Transexuais| Geralmente expulsas de casa pela família ou enfrentam discriminação ao se inserir no mercado de trabalho.                                      | - Acesso a casas de acolhimento (lugares seguros) <br> - Conhecimento de empresas com vagas inclusivas/diversas |
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+
+
+
+
+
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
