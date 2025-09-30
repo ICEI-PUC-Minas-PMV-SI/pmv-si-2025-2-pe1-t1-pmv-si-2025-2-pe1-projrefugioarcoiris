@@ -18,21 +18,20 @@ Perfis de Usuários
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Histórias de usuário são simples descrições do que o usuário precisa ou deseja em um sistema. Elas mostram, quem é o usuário, o que ele quer e qual benefício terá, ajudando a orientar o desenvolvimento de maneira prática e focada nas necessidades reais 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+# Histórias de Usuário
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+| Quem               | O que deseja                                                                                     | Para quê                                                                                                                  |
+|--------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| Mulher Trans       | Encontrar casas de acolhimento seguras                                                           | Ter acesso a uma moradia temporária livre de discriminação                                                                |
+| Homem Trans        | Acessar informações sobre oportunidades de emprego e capacitação                                 | Conquistar vaga de emprego e autonomia financeira                                                                         |
+| Mulher Bissexual   | Saber como se prevenir e o que fazer caso apresente sintomas de IST                               | Obter informações para evitar doenças sexualmente transmissíveis ou buscar ajuda médica para iniciar tratamento           |
+| Pessoa Não Binária | Garantir acesso a apoio psicológico acessível e livre de discriminação                           | Ter acesso à saúde mental de forma segura, sem preconceito, em espaços de acolhimento                                     |
+| Familiar           | Ter mais informações sobre como ajudar em situações de preconceito                               | Saber a quais leis recorrer e como apoiar da melhor forma                                                                 |
+| Homem Gay          | Conhecer oportunidades de cursos sociais e inclusivos                                            | Receber auxílio em sua formação educacional                                                                               |
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+
 
 ## Requisitos
 
