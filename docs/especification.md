@@ -35,22 +35,31 @@ Histórias de usuário são simples descrições do que o usuário precisa ou de
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade | 
-|------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+# # Requisitos Funcionais 
+   Requisitos funcionais mostram as funções e tarefas que devem estar disponíveis para o usuário. Em resumo, são as ações que o sistema deve oferecer para realmente ser útil. 
 
 
-### Requisitos não Funcionais
+| ID   | Descrição                                                                                      | Prioridade |
+|------|------------------------------------------------------------------------------------------------|------------|
+| RF01 | Oferecer um mecanismo de busca para localizar lugares de apoio próximo do usuário.             | Alta       |
+| RF02 | O sistema deve oferecer contatos de apoio psicológico com indicação de profissionais inclusivos.| Alta       |
+| RF03 | Disponibilizar informações sobre oportunidades de emprego inclusivas que apoiam a comunidade.  | Alta       |
+| RF04 | Disponibilizar informações sobre legislações e direitos da comunidade LGBTQIA+.                 | Baixa      |
+| RF05 | Permitir que o usuário filtre serviços por tipo (saúde, jurídico, atendimento psicológico, social). | Baixa  |
+| RF06 | Orientar onde recorrer para denúncias de casos de violência ou discriminação.                   | Baixa      |
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+
+
+# Requisitos Não Funcionais
+
+| ID    | Descrição                                                                                       | Prioridade |
+|-------|-------------------------------------------------------------------------------------------------|------------|
+| RNF01 | O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Edge e Safari).   | Alta       |
+| RNF02 | O tempo de carregamento das páginas não deve ultrapassar 3 segundos.                            | Baixa      |
+| RNF03 | O sistema deve ser responsivo, funcionando em dispositivos móveis, tablets e desktops.          | Média      |
+| RNF04 | O sistema deve exibir mensagens de erro claras e objetivas em caso de falha.                    | Alta       |
+| RNF05 | As imagens utilizadas no sistema devem ser otimizadas para não ultrapassar 500KB cada.          | Baixa      |
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
