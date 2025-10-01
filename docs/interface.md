@@ -94,7 +94,7 @@ pode ser acessado pelo link : https://www.figma.com/design/Scia9woIUoPAopthxkmmg
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/05-Sa%C3%BAde-Preven%C3%A7%C3%A3o2.jpg" width="980px" height="1000px">
 </br>
 
-Trabalho e estudo
+## Trabalho e Estudo
 </br>
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/06-Trabalho-Estudo-1.jpg" width="980px" height="1000px">
 </br>
