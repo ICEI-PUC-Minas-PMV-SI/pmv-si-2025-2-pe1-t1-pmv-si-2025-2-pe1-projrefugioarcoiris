@@ -10,7 +10,7 @@ A navegação é feita por meio de menus visuais e botões destacados, garantind
 o User flow do projeto foi feito pelo figma e pode ser acessado pelo link : https://www.figma.com/design/Scia9woIUoPAopthxkmmgj/Etapa-02-Projetoweb?node-id=0-1&p=f&t=79gXbfxM8DN2RbTc-0
 
 </br>
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/raw/main/docs/img/Interface.site.jpg" width="580px" height="600px">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/raw/main/docs/img/Interface.site.jpg" width="780px" height="800px">
 </br>
 
 ## Principais Interfaces da Plataforma
@@ -51,13 +51,75 @@ Legislação
 * Inclui conteúdos sobre direitos relacionados à família, previdência e combate à discriminação.
 * Atende ao RF04 e RF06, além das necessidades de familiares que buscam amparo legal.
 
-## Wireframes 
+# Wireframes  do Projeto
 
-Os wireframes apresentados foram desenvolvidos no Figma, representando a estrutura visual e o fluxo de navegação entre as telas. O protótipo tem como objetivo validar a organização das interfaces, garantindo que as funcionalidades estejam alinhadas com os requisitos levantados na documentação.
+Os wireframes apresentados foram desenvolvidos pelo Figma, representando a estrutura visual e o fluxo de navegação entre as telas. O protótipo tem como objetivo validar a organização das interfaces, garantindo que as funcionalidades estejam alinhadas com os requisitos levantados na documentação.
 
 O design simples e objetivo prioriza acessibilidade e clareza, permitindo que o usuário identifique rapidamente os recursos disponíveis.
 
 pode ser acessado pelo link : https://www.figma.com/design/Scia9woIUoPAopthxkmmgj/Etapa-02-Projetoweb?node-id=0-1&p=f&t=79gXbfxM8DN2RbTc-0     
 
-Home
+
+## Home
+
+</br>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/01-Home.jpg" width="980px" height="1000px">
+</br>
+
+
+
+## Casas de acolhimento
+
+</br>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/02-Casa-de-Acolhimento.jpg" width="980px" height="1000px">
+</br>
+
+
+
+## Atendimento Psicológico
+
+</br>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/03-Atendimento-Psicol%C3%B3gico.jpg" width="980px" height="1000px">
+</br>
+
+
+## Saúde e Prevenção
+
+</br>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/04-Sa%C3%BAde-Preven%C3%A7%C3%A3o-1.jpg" width="980px" height="1000px">
+</br>
+
+
+</br>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/05-Sa%C3%BAde-Preven%C3%A7%C3%A3o2.jpg" width="980px" height="1000px">
+</br>
+
+Trabalho e estudo
+</br>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/06-Trabalho-Estudo-1.jpg" width="980px" height="1000px">
+</br>
+
+
+</br>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/07-Trabalho-Estudo.jpg" width="980px" height="1000px">
+</br>
+
+
+## Legislação 
+
+</br>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/08-Legisla%C3%A7%C3%A3o.jpg" width="980px" height="1000px">
+</br>
+
+
+</br>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/09-Legisla%C3%A7%C3%A3o-1.jpg?raw=true" width="980px" height="1000px">
+</br>
+
+</br>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/blob/main/docs/img/Interface-Wireframes/10-Legisla%C3%A7%C3%A3o-2.jpg?raw=true" width="980px" height="1000px">
+</br>
+
+
+
 
