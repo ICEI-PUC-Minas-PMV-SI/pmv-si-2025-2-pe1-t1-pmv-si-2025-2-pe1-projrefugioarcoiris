@@ -20,8 +20,9 @@ Perfis de Usuários
 
 Histórias de usuário são simples descrições do que o usuário precisa ou deseja em um sistema. Elas mostram, quem é o usuário, o que ele quer e qual benefício terá, ajudando a orientar o desenvolvimento de maneira prática e focada nas necessidades reais 
 
-# Histórias de Usuário
+ 
 
+Exemplos de histórias de usuários do nosso sistema:
 | Quem               | O que deseja                                                                                     | Para quê                                                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Mulher Trans       | Encontrar casas de acolhimento seguras                                                           | Ter acesso a uma moradia temporária livre de discriminação                                                                |
@@ -33,7 +34,7 @@ Histórias de usuário são simples descrições do que o usuário precisa ou de
 
 
 
-## Requisitos
+## Requisitos do Projeto 
 
 #  Requisitos Funcionais 
    Requisitos funcionais mostram as funções e tarefas que devem estar disponíveis para o usuário. Em resumo, são as ações que o sistema deve oferecer para realmente ser útil. 
@@ -61,18 +62,15 @@ Histórias de usuário são simples descrições do que o usuário precisa ou de
 | RNF05 | As imagens utilizadas no sistema devem ser otimizadas para não ultrapassar 500KB cada.          | Baixa      |
 
 
-## Restrições
+## Metodologia
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+Para o desenvolvimento do projeto será adotada a metodologia ágil Scrum, uma vez que esta permite maior flexibilidade, colaboração entre os integrantes da equipe e acompanhamento contínuo do progresso. O gerenciamento das tarefas será realizado por meio de um quadro Kanban, possibilitando a visualização clara das etapas do projeto e o monitoramento de atividades em andamento, concluídas ou pendentes. 
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| O que vamos fazer                        | Ferramenta utilizada        | Onde vamos disponibilizar |
+|-----------------------------------------|----------------------------|--------------------------|
+| Interface                                | Figma                      | [Link Figma](https://www.figma.com/design/Scia9wolUoPAopthxkmmgj/Etapa-02-Projetoweb?node-id=0-1&p=f&t=jIo7RKnIfm0zJa5e-0) |
+| Repositório e ambiente de versionamento do projeto | GitHub Classroom           | [Link GitHub](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris) |
+| Desenvolvimento do código fonte          | VSCode                     | [Link GitHub](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris) |
+| Acompanhamento de tarefas                | GitHub Projects            | [Link GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-SI/projects/363/views/1) |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
