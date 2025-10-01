@@ -7,7 +7,11 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Texto alternativo]("C:\Users\vicks\Downloads\Etapa 02-Interface.zip".png)
+o User flow do site foi feito pelo figma e pode ser acessado pelo link : https://www.figma.com/design/Scia9woIUoPAopthxkmmgj/Etapa-02-Projetoweb?node-id=0-1&p=f&t=79gXbfxM8DN2RbTc-0
+
+</br>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris/raw/main/docs/img/Interface.site.jpg" width="580px" height="600px">
+</br>
 
 
-![Logo do GitHub](https://www.figma.com/design/Scia9woIUoPAopthxkmmgj/Etapa-02-Projetoweb?node-id=0-1&p=f&t=jIo7RKnlfm0zJa5e-0)
+     
