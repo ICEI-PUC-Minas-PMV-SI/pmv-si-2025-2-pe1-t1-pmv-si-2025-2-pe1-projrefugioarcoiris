@@ -14,13 +14,7 @@
   text-align: justify;
 }
 
-/* ===========================
-    Corações Decorativos (seu CSS original)
-=========================== */
 
-/* ===========================
-   Wrapper
-=========================== */
 .wrapper {
   width: 120px; /* Ajuste do espaço total do wrapper */
   height: 120px;
@@ -86,7 +80,7 @@
   color: white;
   font-weight: bold;
   text-align: center;
-  width: 20px; /* Ajustado ao coração menor */
+  width: 20px;
   pointer-events: none;
   font-size: 12px; /* Fonte menor para caber no coração */
 }
@@ -151,21 +145,10 @@
   font-size: 14px; /* Ajuste de tamanho para caber no coração menor */
 }
 
-/*Inclusão de tabela----------------------------------------------------------------*/
-/*
-
-/*
-
-/* Estilo dos Links na Tabela */
-
-/*teste-------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-
-/* Definição de Cores Base (Alterada a cor do item gratuito para bater com a sua imagem) */
-
-/* Definição de Cores Base (Alterada a cor do item gratuito para bater com a sua imagem) */
 
 /* Definição de Cores Base */
-/* Definição de Cores Base */
+
+
 /* Definição de Cores Base */
 :root {
   --pink-fundo: #ffebee;
@@ -231,7 +214,6 @@
 
 .prof-details {
   flex-grow: 1;
-  /* Garante que o prof-details use o espaço restante, mas se comprima primeiro que os outros elementos */
   min-width: 0;
 
   /* Regras para esconder o excesso de texto */
@@ -242,7 +224,6 @@
 
 /* Estilos de Badges e Links */
 .badge {
-  /* Removida a margem ms-2 do HTML e adicionada aqui para alinhamento */
   margin-right: 0.5rem;
   padding: 0.3em 0.6em;
   font-size: 0.75em;
@@ -273,14 +254,12 @@
 
 /* Cor de Fundo para o bloco de Destaque "Cuidar da sua saúde..." */
 .bg-light-pink-custom {
-    /* Usando um rosa bem claro para destaque, ou a cor que você usou na marcação verde */
-    background-color: #fce4ec; 
-    border-left: 5px solid var(--pink-destaque); /* Adiciona uma barra lateral colorida para UX */
+ background-color: #fce4ec; 
+    border-left: 5px solid var(--pink-destaque); 
 }
 
-/* Opcional: Estilo para o título que você criou */
+
 .titulo-azul {
-    /* Use a cor que você definiu para o azul/roxo nos seus cards */
     color: var(--cor-presencial); 
     font-size: 2rem;
     text-align: center; /* Centraliza o título */

@@ -2,23 +2,23 @@
 /* ESTILOS PARA BOTÕES (btn-rosa)       */
 /* ==================================== */
 .btn-rosa {
-    background-color: #ff4da6; /* Tom de rosa vibrante (mantendo a cor original) */
+    background-color: #ff4da6;
     color: #fff;
     border: none;
-    /* Unificando a transição para todos os efeitos */
+    
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; 
 }
 
 .btn-rosa:hover {
-    background-color: #ff1a8c; /* Rosa mais escuro ao passar o mouse (mantendo o estilo inicial) */
-    transform: translateY(-2px); /* Leve elevação no hover */
+    background-color: #ff1a8c; 
+    transform: translateY(-2px); 
     text-decoration: none;
-    color: #fff; /* Garantindo que a cor do texto seja branca */
+    color: #fff; 
 }
 
 .btn-rosa:focus,
 .btn-rosa:active {
-    /* Efeito de clique mais profundo e com box-shadow de acessibilidade (mantido do primeiro bloco) */
+    
     background-color: #e60073; 
     box-shadow: 0 0 0 0.2rem rgba(255, 77, 166, 0.5);
 }
@@ -27,7 +27,7 @@
 /* FUNDO E ILUSTRAÇÕES                  */
 /* ==================================== */
 
-/* Fundo rosa claro para seções */
+
 .bg-rosa-claro {
     background-color: #ffe6f0;
 }
@@ -41,7 +41,7 @@
 /* BADGE DE EMPRESAS/LOGOS              */
 /* ==================================== */
 
-/* Badge das empresas (logo redonda e com sombra) */
+/* Badge das empresas (logo redonda ) */
 .empresa-badge {
     height: 80px;
     width: 80px;
@@ -76,7 +76,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center; /* Adicionado para melhor apresentação do texto */
+    text-align: center; 
 }
 
 .trabalho-estudo-card p {
@@ -98,17 +98,17 @@
     justify-content: center;
     gap: 25px;
 
-    /* 1. IMPEDE a quebra de linha (força todos na mesma linha) */
+
     flex-wrap: nowrap;
 
-    /* 2. ADICIONA SCROLL HORIZONTAL (UX) */
+
     overflow-x: auto;
 
-    /* 3. Evita problemas de scroll em telas menores */
+
     padding-bottom: 10px;
 }
 
-/* Opcional: Adiciona espaço interno no container para o scroll não encostar nas bordas */
+
 .sessao-trabalho .container {
     max-width: 100%;
 }
@@ -171,11 +171,11 @@
 
 /* Ajuste do espaçamento do título e subtítulo */
 .titulo-sessao {
-  margin-bottom: 10px !important; /* Menor distância */
+  margin-bottom: 10px !important; 
 }
 
 .descricao-sessao {
-  margin-bottom: 15px !important; /* Aproxima mais do carrossel */
+  margin-bottom: 15px !important; 
 }
 
 /* Resto é o seu código original */

@@ -1,11 +1,6 @@
-/* --------------------
-   Estilo do Modal (Popup)
-   -------------------- */
 
-/* Fundo Escuro (Overlay) - CORRIGIDO */
 .modal-overlay {
     display: none;
-    /* Agora, realmente escondido por padrão */
     position: fixed;
     z-index: 1000;
     left: 0;
@@ -16,11 +11,8 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* ⚠️ Importante: Você precisa de uma regra para torná-lo 'flex' quando abrir. */
-/* Se você usa .modal-overlay.open no seu JS (o que é ideal), adicione esta regra: */
 .modal-overlay.open {
     display: flex;
-    /* Mostra e centraliza apenas quando a classe 'open' é adicionada */
     justify-content: center;
     align-items: center;
 }
@@ -29,7 +21,6 @@
 .modal-content {
     background-color: #fff;
     margin: auto;
-    /* Necessário se não usar flex */
     padding: 30px;
     border-radius: 10px;
     width: 90%;
@@ -38,7 +29,7 @@
     /* Largura máxima */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     position: relative;
-    /* Adiciona uma animação suave */
+    /* Adiciona  animação */
     transform: scale(0.9);
     opacity: 0;
     transition: transform 0.3s ease-out, opacity 0.3s ease-out;
@@ -87,19 +78,16 @@
 
 .direitos-table thead th {
     background-color: #f8f9fa;
-    /* Fundo leve */
     font-weight: bold;
     color: #495057;
 }
 
-/* Estilização para o título do direito */
 .direitos-table tbody tr td:first-child {
     font-weight: 600;
     min-width: 120px;
     background-color: #f1f1f1;
 }
 
-/* Adicione um estilo para o título principal do modal */
 .modal-title {
     color: #d63384;
     /* Exemplo de cor rosa */
@@ -122,27 +110,22 @@
     list-style: none;
 }
 
-/* Classe para mostrar o item (faz ele se empilhar) */
 #listaDenuncia li.ativo {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* Estilos para a lista de Retificação (OL) */
 #listaRetificacao li {
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
-/* Classe para mostrar o item (ele fica e se empilha) */
 #listaRetificacao li.ativo {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* IMPORTANTE: Se você ainda tem a lista de Denúncia, 
-   o CSS dela deve estar assim (com o ID correto): */
 #listaDenuncia li {
     opacity: 0;
     transform: translateY(10px);
@@ -175,14 +158,12 @@
     color: #495057;
 }
 
-/* Estilo para a coluna do telefone/órgão */
 .canais-table tbody tr td:first-child {
     font-weight: 600;
     min-width: 120px;
     background-color: #f1f1f1;
 }
 
-/* (Mantenha todo o CSS anterior de .modal-overlay e .modal-content) */
 .icone-doc {
     font-size: 2.5rem;
     color: #ff4da6;
@@ -227,7 +208,6 @@
 /* Contêiner Principal do Quiz (div.app) */
 .app {
     background: #fdf6fa;
-    /* Um tom de rosa/claro para o fundo do quiz */
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -242,11 +222,9 @@
 .app h1 {
     font-size: 2.2rem;
     color: #4a0072;
-    /* Roxo vibrante para destacar */
     font-weight: bold;
     margin-bottom: 25px;
     border-bottom: 2px solid #ff99c8;
-    /* Linha de destaque rosa */
     padding-bottom: 10px;
 }
 
@@ -267,9 +245,7 @@
 #answer-buttons {
     display: grid;
     grid-template-columns: 1fr;
-    /* Uma coluna, respostas empilhadas */
     gap: 15px;
-    /* Espaçamento entre os botões */
     margin-bottom: 25px;
 }
 
@@ -280,10 +256,8 @@
     font-weight: 500;
     width: 100%;
     border: 1px solid #ff99c8;
-    /* Borda rosa suave */
     padding: 12px;
     margin: 0;
-    /* O espaçamento já é dado pelo 'gap' */
     text-align: center;
     border-radius: 8px;
     cursor: pointer;
@@ -293,14 +267,12 @@
 
 #answer-buttons button:hover:not([disabled]) {
     background-color: #ff99c8;
-    /* Fundo rosa ao passar o mouse */
     color: #ff4da6;
     transform: translateY(-2px);
 }
 
-/* Botão 'Próxima' (button#next-btn) - CORREÇÃO DE COR */
+/* Botão 'Próxima'  */
 #next-btn {
-    /* CORRIGIDO para um tom de magenta/rosa forte, como na imagem */
     background: #E94F99;
 
     color: #fff;
@@ -316,7 +288,6 @@
 }
 
 #next-btn:hover {
-    /* Mantendo um tom ligeiramente mais escuro para o hover */
     background: #D63384;
 }
 
@@ -328,7 +299,6 @@
 /* Estilo para a resposta CORRETA (aplicado via JS) */
 .btn.correct {
     background: #a7f7be;
-    /* Verde suave, como na imagem */
     color: #145a32;
     border-color: #145a32;
 }
@@ -336,7 +306,6 @@
 /* Estilo para a resposta INCORRETA (aplicado via JS) - CORREÇÃO DE COR */
 .btn.incorrect {
     background: #ffb8b8;
-    /* CORRIGIDO: Rosa pastel avermelhado, mais suave */
     color: #7b2424;
     border-color: #7b2424;
 }
@@ -345,7 +314,6 @@
 /* Aumenta a especificidade para garantir que o fundo verde seja aplicado */
 #answer-buttons .btn.correct {
     background: #a7f7be !important;
-    /* Verde suave, como na imagem */
     color: #145a32;
     border-color: #145a32;
 }
@@ -354,7 +322,6 @@
 /* Aumenta a especificidade para garantir que o fundo rosa/vermelho seja aplicado */
 #answer-buttons .btn.incorrect {
     background: #ffb8b8 !important;
-    /* Rosa pastel avermelhado, como na imagem */
     color: #7b2424;
     border-color: #7b2424;
 }

@@ -127,14 +127,14 @@
                             <div class="card-back">
                                 <strong>PrEP (Profilaxia Pré-Exposição ao HIV)</strong>
                                 <p style="font-size: 16px; text-align: left; color: white;">
-                                    <p></p>
-                                    É o uso de medicamentos antirretrovirais por uma pessoa que não tem HIV, mas está em
-                                    alto risco de contrair o vírus.
-                                    <br />
-                                    O medicamento (tomado diariamente ou sob demanda, dependendo do esquema) impede que
-                                    o HIV se estabeleça no corpo caso ocorra uma exposição.
-                                    <br />
-                                    Disponível gratuitamente no SUS.
+                                <p></p>
+                                É o uso de medicamentos antirretrovirais por uma pessoa que não tem HIV, mas está em
+                                alto risco de contrair o vírus.
+                                <br />
+                                O medicamento (tomado diariamente ou sob demanda, dependendo do esquema) impede que
+                                o HIV se estabeleça no corpo caso ocorra uma exposição.
+                                <br />
+                                Disponível gratuitamente no SUS.
                                 </p>
                             </div>
                         </div>
@@ -278,6 +278,44 @@
                 </ul>
             </section>
 
+            <section class="container my-5">
+                <h2 class="text-center mb-4">Inscreva-se para receber dicas de Saúde e Prevenção!</h2>
+                <p class="text-center">Receba em seu e-mail conteúdos exclusivos, calendários de vacinação e informações
+                    sobre saúde LGBTQIA+.</p>
+
+                <form class="row justify-content-center" id="formInscricaoSaude">
+                    <div class="col-md-6 mb-3">
+                        <label for="nomeInscricao" class="form-label">Seu Nome Completo:</label>
+                        <input type="text" class="form-control" id="nomeInscricao" name="nome"
+                            placeholder="Ex: Maria da Silva" aria-required="true" required>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label for="emailInscricao" class="form-label">Seu Melhor E-mail:</label>
+                        <input type="email" class="form-control" id="emailInscricao" name="email"
+                            placeholder="exemplo@dominio.com" aria-required="true" required>
+                        <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
+                    </div>
+
+                    <div class="col-12 mb-4 form-check d-flex justify-content-center">
+                        <input type="checkbox" class="form-check-input" id="consentimento" required>
+                        <label class="form-check-label ms-2" for="consentimento">
+                            Eu concordo em receber informações de saúde e prevenção por e-mail.
+                        </label>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-lg btn-custom-submit">
+                                Quero Receber Dicas!
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-3 text-center" id="mensagemFeedback"></div>
+                </form>
+            </section>
+
     </main>
 
     <footer>
@@ -311,8 +349,9 @@
     </footer>
 
 
-   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-   
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/SaudePrevencao.js"></script>
 </body>
 
 </html>
