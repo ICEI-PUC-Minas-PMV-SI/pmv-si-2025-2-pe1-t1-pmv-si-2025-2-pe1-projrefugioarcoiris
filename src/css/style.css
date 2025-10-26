@@ -38,7 +38,7 @@ h2 {
 body {
   /* Remova a linha do linear-gradient para usar apenas a imagem */
   /* background: linear-gradient(180deg, #fff 0%, #ffe4f1 100%); */
-  background-image: url("../assets/Imagens/06.jpg");
+  background-image: url("../assets/Imagens/fundoSaudePrevencao.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@ body.home {
 } /*/
 
 body.home {
-  background-image: url("../assets/Imagens/001gifprincipal.gif");
+  background-image: url("../assets/Imagens/gitHome.gif");
   background-size: cover; /* Faz o gif cobrir toda a tela */
   background-position: center; /* Centraliza o gif */
   background-repeat: no-repeat; /* Evita repetição do gif */
@@ -69,11 +69,11 @@ body.home {
 }
 
 body.casas {
-  background-image: url("../assets/Imagens/3.jpg");
+  background-image: url("../assets/Imagens/FundoCasas.jpg");
 }
 
 body.atendimento {
-  background-image: url("../assets/Imagens/5.jpg");
+  background-image: url("../assets/Imagens/FundoAtendimento.jpg");
 }
 
 body.saude {
@@ -147,7 +147,7 @@ img {
 
 /* Aplica a imagem de fundo específica */
 body.trabalho-estudo {
-  background-image: url("../assets/Imagens/2.jpg"); /* Conforme definido no seu CSS */
+  background-image: url("../assets/Imagens/FundoTrabalhoEstudo.jpg"); /* Conforme definido no seu CSS */
 }
 
 .trabalho-estudo-card {
