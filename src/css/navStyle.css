@@ -1,0 +1,56 @@
+/* ======== Estilo dos botões arredondados ======== */
+.nav-pills .nav-link {
+  border-radius: 50px;
+  padding: 8px 18px;
+  margin: 4px;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  border: 2px solid #b3006b;
+  color: #b3006b !important;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #fcb6d9;
+  color: #fff !important;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #b3006b !important;
+  color: #fff !important;
+}
+
+/* ======== Cabeçalho ======== */
+header {
+  background-color: #fcb6d9;
+}
+
+.navbar-brand {
+  font-family: "Brush Script MT", cursive;
+  color: #b3006b !important;
+  font-size: 2rem;
+  white-space: nowrap;
+}
+
+/* ======== Ícone do botão ======== */
+.navbar-toggler {
+  border-color: #b3006b;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(179,0,107)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* ======== Fundo do menu colapsado ======== */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #fcb6d9;
+    border-top: 2px solid #b3006b;
+    padding: 10px;
+  }
+}
+
+header {
+  background-color: #fcb6d9; 
+}
