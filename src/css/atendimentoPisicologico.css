@@ -1,0 +1,287 @@
+/* ===========================
+    Estilos Extraídos do HTML
+=========================== */
+
+.titulo-azul {
+  color: #3b4eaf;
+}
+
+.imagem-saude {
+  max-width: 500px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* ===========================
+    Corações Decorativos (seu CSS original)
+=========================== */
+
+/* ===========================
+   Wrapper
+=========================== */
+.wrapper {
+  width: 120px; /* Ajuste do espaço total do wrapper */
+  height: 120px;
+  position: relative;
+  margin: 5px; /* Menor espaçamento entre corações */
+}
+
+/* ===========================
+   Botão de coração
+=========================== */
+.heart {
+  position: absolute;
+  width: 60px; /* Coração menor */
+  height: 60px;
+  background-color: #ff69b4;
+  top: 30px;
+  left: 30px;
+  border: none;
+  transform: rotate(45deg);
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ff69b4;
+  border-radius: 50%;
+}
+
+.heart::before {
+  top: -50%;
+  left: 0;
+}
+
+.heart::after {
+  top: 0;
+  left: -50%;
+}
+
+/* ===========================
+   Efeito de batimento
+=========================== */
+.beat:hover {
+  transform: rotate(45deg) scale(1.2);
+  background-color: #ff1493;
+  box-shadow: 0 6px 15px rgba(255, 20, 147, 0.5);
+}
+
+/* ===========================
+   Texto dentro do coração
+=========================== */
+.heart-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 20px; /* Ajustado ao coração menor */
+  pointer-events: none;
+  font-size: 12px; /* Fonte menor para caber no coração */
+}
+
+/* ===========================
+   Efeito de batimento
+=========================== */
+.beat {
+  width: 80px;
+  height: 80px;
+  background-color: #ff69b4;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  transform: rotate(45deg);
+  transition: transform 0.25s ease-in-out, background-color 0.25s ease-in-out,
+    box-shadow 0.25s ease-in-out;
+}
+
+.beat::before,
+.beat::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ff69b4;
+  border-radius: 50%;
+}
+
+.beat::before {
+  top: -50%;
+  left: 0;
+  background-color: #ff69b4;
+}
+
+.beat::after {
+  top: 0;
+  left: -50%;
+  background-color: #ff69b4;
+}
+
+/* Batimento e mudança de cor ao passar o mouse */
+.beat:hover {
+  transform: rotate(45deg) scale(1.2);
+  background-color: #ff69b4; /* Rosa mais forte */
+  box-shadow: 0 6px 15px rgba(255, 105, 180, 0.5);
+}
+
+/* ===========================
+   Texto dentro do coração
+=========================== */
+.heart-text {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: rgb(28, 28, 28);
+  font-weight: bold;
+  text-align: center;
+  width: 80px;
+  pointer-events: none;
+  font-size: 14px; /* Ajuste de tamanho para caber no coração menor */
+}
+
+/*Inclusão de tabela----------------------------------------------------------------*/
+/*
+
+/*
+
+/* Estilo dos Links na Tabela */
+
+/*teste-------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/* Definição de Cores Base (Alterada a cor do item gratuito para bater com a sua imagem) */
+
+/* Definição de Cores Base (Alterada a cor do item gratuito para bater com a sua imagem) */
+
+/* Definição de Cores Base */
+/* Definição de Cores Base */
+/* Definição de Cores Base */
+:root {
+  --pink-fundo: #ffebee;
+  --pink-destaque: #e91e63;
+  --cor-online: #ba68c8;
+  --cor-presencial: #9575cd;
+  --cor-gratuito: #af4c8e;
+  --cor-borda-caixa: #f48fb1;
+}
+
+.custom-titulo-principal {
+  color: var(--pink-destaque);
+  font-family: "Young-Serif", serif;
+  font-size: 2.5rem;
+}
+
+/* Ajuste para que as duas colunas tenham a mesma altura visualmente */
+.row.g-4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+/* 1. CAIXINHA ROSA (UX: Agrupamento de Conteúdo) */
+.custom-pink-box {
+  background-color: var(--pink-fundo);
+  border: 2px solid var(--cor-borda-caixa);
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+/* 2. ESTILO DA LISTA (Ajuste crucial no Flexbox) */
+.custom-list-simple {
+  padding-left: 0;
+}
+
+.list-item-custom {
+  display: flex;
+  align-items: center;
+  /* Removido o justify-content: space-between, confiando no ms-auto do HTML */
+  border-bottom: 1px dashed rgba(233, 30, 99, 0.2);
+  padding-bottom: 0.75rem;
+  padding-top: 0.25rem;
+  font-size: 1rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: clamp(14px, 2.5vw, 18px);
+  overflow: hidden;
+}
+
+/* Remove a borda inferior do último item de cada coluna */
+.custom-pink-box ul.custom-list-simple > li:last-child {
+  border-bottom: none;
+  margin-bottom: 0 !important;
+}
+
+.prof-name {
+  font-weight: 600;
+  color: var(--pink-destaque);
+  min-width: 140px;
+  flex-shrink: 0; /* IMPEDE que o nome se comprima */
+}
+
+.prof-details {
+  flex-grow: 1;
+  /* Garante que o prof-details use o espaço restante, mas se comprima primeiro que os outros elementos */
+  min-width: 0;
+
+  /* Regras para esconder o excesso de texto */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Estilos de Badges e Links */
+.badge {
+  /* Removida a margem ms-2 do HTML e adicionada aqui para alinhamento */
+  margin-right: 0.5rem;
+  padding: 0.3em 0.6em;
+  font-size: 0.75em;
+  border-radius: 8px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.custom-badge-online {
+  background-color: var(--cor-online) !important;
+  color: white !important;
+}
+.custom-badge-presencial {
+  background-color: var(--cor-presencial) !important;
+  color: white !important;
+}
+
+.link-secondary {
+  color: #555 !important;
+  text-decoration: underline;
+  font-weight: 500;
+  flex-shrink: 0; /* IMPEDE que o link se comprima */
+}
+
+.link-secondary:hover {
+  color: var(--pink-destaque) !important;
+}
+
+/* Cor de Fundo para o bloco de Destaque "Cuidar da sua saúde..." */
+.bg-light-pink-custom {
+    /* Usando um rosa bem claro para destaque, ou a cor que você usou na marcação verde */
+    background-color: #fce4ec; 
+    border-left: 5px solid var(--pink-destaque); /* Adiciona uma barra lateral colorida para UX */
+}
+
+/* Opcional: Estilo para o título que você criou */
+.titulo-azul {
+    /* Use a cor que você definiu para o azul/roxo nos seus cards */
+    color: var(--cor-presencial); 
+    font-size: 2rem;
+    text-align: center; /* Centraliza o título */
+}
