@@ -1,0 +1,272 @@
+/* ==================================== */
+/* ESTILOS PARA BOTÕES (btn-rosa)       */
+/* ==================================== */
+.btn-rosa {
+    background-color: #ff4da6; /* Tom de rosa vibrante (mantendo a cor original) */
+    color: #fff;
+    border: none;
+    /* Unificando a transição para todos os efeitos */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; 
+}
+
+.btn-rosa:hover {
+    background-color: #ff1a8c; /* Rosa mais escuro ao passar o mouse (mantendo o estilo inicial) */
+    transform: translateY(-2px); /* Leve elevação no hover */
+    text-decoration: none;
+    color: #fff; /* Garantindo que a cor do texto seja branca */
+}
+
+.btn-rosa:focus,
+.btn-rosa:active {
+    /* Efeito de clique mais profundo e com box-shadow de acessibilidade (mantido do primeiro bloco) */
+    background-color: #e60073; 
+    box-shadow: 0 0 0 0.2rem rgba(255, 77, 166, 0.5);
+}
+
+/* ==================================== */
+/* FUNDO E ILUSTRAÇÕES                  */
+/* ==================================== */
+
+/* Fundo rosa claro para seções */
+.bg-rosa-claro {
+    background-color: #ffe6f0;
+}
+
+/* Imagem de ilustração */
+.ilustracao-img {
+    max-width: 300px;
+}
+
+/* ==================================== */
+/* BADGE DE EMPRESAS/LOGOS              */
+/* ==================================== */
+
+/* Badge das empresas (logo redonda e com sombra) */
+.empresa-badge {
+    height: 80px;
+    width: 80px;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Imagem dentro da badge */
+.empresa-logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* ==================================== */
+/* CARDS E CONTAINER (TRABALHO/ESTUDO)  */
+/* ==================================== */
+
+/* Estilo dos Cards da seção de vagas afirmativas */
+.trabalho-estudo-card {
+    background-color: #df57b1;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    transition: all 0.3s ease;
+    max-width: 230px;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Adicionado para melhor apresentação do texto */
+}
+
+.trabalho-estudo-card p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Efeito de destaque ao passar o mouse */
+.trabalho-estudo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Container dos cards — centraliza e ajusta espaçamento */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    /* 1. IMPEDE a quebra de linha (força todos na mesma linha) */
+    flex-wrap: nowrap;
+
+    /* 2. ADICIONA SCROLL HORIZONTAL (UX) */
+    overflow-x: auto;
+
+    /* 3. Evita problemas de scroll em telas menores */
+    padding-bottom: 10px;
+}
+
+/* Opcional: Adiciona espaço interno no container para o scroll não encostar nas bordas */
+.sessao-trabalho .container {
+    max-width: 100%;
+}
+
+/* ==================================== */
+/* ESTRUTURA E TIPOGRAFIA               */
+/* ==================================== */
+
+/* Títulos e textos */
+.titulo-principal2 {
+    color: #d63384;
+}
+
+.subtitulo-principal {
+    color: #c2185b;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Sessão de trabalho (padding de seção) */
+.sessao-trabalho {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* ==================================== */
+/* AJUSTES DE RESPONSIVIDADE            */
+/* ==================================== */
+@media (max-width: 768px) {
+    .trabalho-estudo-card {
+        max-width: 100%;
+        width: 90%;
+        /* Centraliza os cards quando estão em coluna */
+        margin: 10px auto; 
+    }
+
+    /* Permite que o container dos cards ocupe toda a largura em telas pequenas */
+    .cards-container {
+        justify-content: flex-start; /* Alinha ao início para melhorar o scroll */
+        padding-left: 20px; /* Adiciona padding para o scroll não encostar na borda */
+    }
+}
+/* Ajuste da seção para manter tudo mais próximo */
+.EstudoCarrossel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* Aproxima do título */
+}
+
+/* Área do slider */
+.slider {
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Ajuste do espaçamento do título e subtítulo */
+.titulo-sessao {
+  margin-bottom: 10px !important; /* Menor distância */
+}
+
+.descricao-sessao {
+  margin-bottom: 15px !important; /* Aproxima mais do carrossel */
+}
+
+/* Resto é o seu código original */
+.slides {
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 25%;
+  transition: 2s;
+}
+
+.slide img {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Botões manuais */
+.manual-navigation {
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #c2185b;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background-color: #c2185b;
+}
+
+/* Movimentação dos slides */
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -75%;
+}
+
+/* Navegação automática */
+.navegation-auto {
+  position: absolute;
+  width: 800px;
+  margin-top: 360px;
+  display: flex;
+  justify-content: center;
+}
+
+.navegation-auto div {
+  border: 2px solid #b3006b;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navegation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+/* Estado ativo */
+#radio1:checked ~ .navegation-auto .auto-btn1,
+#radio2:checked ~ .navegation-auto .auto-btn2,
+#radio3:checked ~ .navegation-auto .auto-btn3,
+#radio4:checked ~ .navegation-auto .auto-btn4 {
+  background-color: #c2185b;
+}
