@@ -1,0 +1,109 @@
+
+.documentos {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  gap: 30px;               
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 100%; 
+  flex-direction: column;          
+}
+
+
+.tituloCards {
+  text-align: center; 
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #738FBD;
+  margin-bottom: 20px; 
+}
+
+.cards-container {
+  display: flex;               
+  justify-content: center;   
+  align-items: center;         
+  gap: 30px;                 
+  flex-wrap: nowrap;
+  overflow: hidden; 
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  perspective: 1000px;
+  background-color: transparent; 
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  background-color: transparent;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  border: 2px solid #555;
+  backface-visibility: hidden; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  border: 2px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  background-color: transparent; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+.card-front img {
+  width: 55px;
+  height: 55px;
+}
+
+
+.card-back {
+  transform: rotateY(180deg);
+  background-color: #cde1f6;
+  color: #2e3c54;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;   
+  justify-content: center;
+}
+
+
+.card1 .card-front { background-color: #A8C3D4; } 
+.card2 .card-front { background-color: #DBD6DF; } 
+.card3 .card-front { background-color: #A8C3D4; } 
+.card4 .card-front { background-color: #DBD6DF; } 
+.card5 .card-front { background-color: #A8C3D4; }
+
+.card1 .card-back { background-color: #2e87be; }
+.card2 .card-back { background-color: #a178c2; }
+.card3 .card-back { background-color: #2e87be; }
+.card4 .card-back { background-color: #a178c2; }
+.card5 .card-back { background-color: #2e87be; }
