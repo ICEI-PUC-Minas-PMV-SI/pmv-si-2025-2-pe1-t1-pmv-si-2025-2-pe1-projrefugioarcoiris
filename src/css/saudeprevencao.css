@@ -1,0 +1,271 @@
+/* --- Estilo geral --- */
+body {
+  font-family: "Young Serif", serif;
+  background-color: #ffe2f8;
+  color: #000000;
+  margin: 0;
+  text-align: center;
+  overflow-x: hidden;
+  animation: fadeIn 1s ease-in;
+  background-image: url("../assets/Imagens/06.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+}
+
+
+
+/* --- Títulos --- */
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  color: #400202;
+  margin-bottom: 20px;
+  font-weight: normal;
+  box-shadow: none;
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+/* --- Texto principal --- */
+p {
+  font-size: 20px;
+  line-height: 1.8;
+  /* max-width: 850px; */
+  margin: 50px auto;
+  text-align: center;
+  color: #000000;
+  animation: fadeIn 1.5s ease-in;
+}
+
+
+
+/* --- Blocos principais --- */
+section,
+.info {
+  background-color: #ffe2f8;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 0px 0px rgba(64, 2, 2, 0.15);
+  margin-bottom: 45px;
+  margin-top: 45px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1.5s ease forwards;
+}
+
+.info {
+  animation-delay: 0.3s;
+}
+section:nth-of-type(1) {
+  animation-delay: 0.6s;
+}
+section:nth-of-type(2) {
+  animation-delay: 0.9s;
+}
+
+/* --- Animações --- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* --- Estilos dos Flip Cards --- */
+/* Esta é a classe que define o tamanho do card */
+/* Altura do Card: MANTIDA EM 500PX */
+/* Altura do Card: MANTIDA EM 500PX */
+.card_flip {
+  width: 300px;
+  height: 500px;
+  perspective: 1000px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+/* O resto do card-inner e hover permanece o mesmo */
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card_flip:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+
+  /* REMOVIDO: display: flex e align-items: center */
+  /* Isso permite que o conteúdo flua normalmente de cima para baixo */
+  display: block;
+
+  border-radius: 0.5rem;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left; /* Garante que o texto principal comece na esquerda */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: clamp(14px, 2.5vw, 18px);
+  overflow: hidden; /* Mantém a correção para o vazamento */
+}
+
+.card-front {
+  background: #a8c3d4;
+  border: 1px solid #d9d9d9;
+  /* Adicionando Flexbox APENAS no Front para centralizar a imagem */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-front img {
+  max-width: 90%;
+  margin: 10px auto;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+
+
+.card-back {
+  background: #a8c3d4;
+  color: white;
+  transform: rotateY(180deg);
+  padding-top: 20px;
+}
+
+/* Estilo para o texto interno do card-back para melhor leitura */
+.card-back p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 10px;
+  text-align: left; /* Garante o alinhamento do parágrafo */
+}
+
+.card-back strong {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left; /* Garante o alinhamento do título */
+}
+.titulo-prevencao {
+  color: rgb(255, 0, 242); /* ou a cor azul da imagem */
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+/* Tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f3cdffea;
+  color: #91078a;
+  font-weight: bold;
+}
+
+/* Caixa de Atenção (Janela Imunológica) */
+.atencao-box {
+  background-color: #f3cdffea;
+  color: #91078a;
+  border: 1px solid #ffeeba;
+  border-left: 5px solid #db61ac69; /* Borda de destaque */
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+.atencao-box strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Caixa de Chamada (Aconselhamento) */
+.callout {
+  background-color: #e9f7ff;
+  padding: 15px;
+  border-left: 5px solid #007bff; /* Borda de destaque */
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.callout strong {
+  font-size: 1.1em;
+  color: #0056b3;
+}
+
+/* Listas */
+
+ul.lista-bonitinha li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  text-align: left;
+  line-height: 1.6;
+  list-style-type: "❤︎";
+  padding-left: 20px;
+}
+
+
+/* Lista com estrelas */
+ul.lista-bonitinha {
+  list-style: none;
+  padding: 10px;
+  margin: 30px 15px;
+}
+
+.img-flutuante {
+  width: 350px;
+  float: left;
+  margin: 0px;
+  border-radius: 20px;
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.15);
+  transform: rotate(-40deg);
+}
+
