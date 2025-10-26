@@ -1,0 +1,66 @@
+.frases-container {
+  text-align: center;
+  margin: 60px auto;
+  padding: 30px;
+}
+
+#frase {
+  font-size: 22px;
+  color: #b03060;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.titulo-principal {
+    color: #738FBD; 
+    font-weight: bold;
+    font-size: 1.4em; 
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.frases-container button {
+  background-color: #ff3fa4; /* rosa mais forte */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px; /* botão mais arredondado */
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.frases-container button:hover {
+  background-color: #ff6fbc; /* muda a cor ao passar o mouse */
+  transform: scale(1.08);
+}
+
+
+button:hover {
+  background-color: #ff6fbc;
+  transform: scale(1.05);
+}
+
+table {
+  margin: 25px auto;
+  border-collapse: collapse;
+  width: 70%;
+  background: linear-gradient(to right, #738FBD, #8DA9C9, #B4BFD4, #EEC6C7, #DB88A4, #CC8EB1);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: linear-gradient(to right, #738FBD, #8DA9C9, #B4BFD4, #EEC6C7, #DB88A4, #CC8EB1);;
+  color: #333;
+  font-weight: bold;
+}
