@@ -15,7 +15,7 @@ O projeto Refugio Arco-Íris tem como objetivo desenvolver um sistema web front-
 * Vitória de Santana Silveira
 * Beatriz de Oliveira
 * Isabela Lourenço Silva
-* Álvaro Ferreira Godinho
+
 
 
 ## Orientador
