@@ -2,32 +2,39 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Web Application Template
+title: Projeto web - Refúgio Arco-íris
 message: >-
-  Repositório padrão para o Eixo 1 - Projeto 1: Aplicações
-  Web da PUC Minas.
+  Repositório padrão para o Eixo 1 - Projeto 1: Refúgio Arco-íris PUC Minas.
 type: software
 authors:
   - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+    family-names: Vitória de Santana Silveira
+    email:vitoria.silveira@pucminas.br
     affiliation: PUC Minas
-  - given-names: Hugo
+
+  - given-names: Aluno 2
     name-particle: 'B '
-    family-names: de Paula
-    name-suffix: Prof.
-    email: hugo@pucminas.br
+    family-names: Beatriz de Oliveira
+    email:beatriz.oliveira@sgn.pucminas.br
+    affiliation: PUC Minas
+
+
+    name-suffix: Prof.Marco Rodrigo Costa
+    email: marco.rodrigo@sga.pucminas.br
     affiliation: PUC Minas
     orcid: 'https://orcid.org/0000-0002-6193-3205'
 repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
+  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris
 abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+  A comunidade LGBTQIA+ enfrenta discriminação, rejeição familiar e dificuldade de acesso a serviços básicos, o que aumenta sua vulnerabilidade social. Muitas pessoas acabam desamparadas, sem informações confiáveis sobre apoio, acolhimento e cuidados essenciais.
+
+Para ajudar a reduzir esses impactos, o projeto propõe um sistema web que centralize informações úteis à comunidade, como locais de acolhimento, suporte psicológico, materiais educativos e iniciativas de inclusão profissional. A plataforma também oferecerá conteúdos sobre direitos e proteção legal, fortalecendo o acesso à cidadania.
+
 keywords:
   - Desenvolvimento Web
   - HTML
   - CSS
   - JavaScript
+  - bootstrap
   - Template
-date-released: '2024-06-23'
+date-released: '2025-11-17'
