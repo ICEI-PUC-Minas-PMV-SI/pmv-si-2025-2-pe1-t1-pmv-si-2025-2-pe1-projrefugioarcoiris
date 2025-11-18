@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 `;
 
                 // C. Limpa os campos do formulário e reativa o botão
-                form.reset();
+                //form.reset();
                 submitButton.disabled = false;
                 submitButton.textContent = 'Quero Receber Dicas!';
 
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
 
                 // Opcional: faz a página subir para o topo para ver a mensagem
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                //window.scrollTo({ top: 0, behavior: 'smooth' });
 
             }, 1500); // 1.5 segundos de simulação
 
