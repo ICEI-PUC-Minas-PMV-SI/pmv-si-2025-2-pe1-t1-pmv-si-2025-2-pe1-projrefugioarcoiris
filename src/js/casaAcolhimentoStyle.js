@@ -1,242 +1,174 @@
+// Inicializa o mapa
+const map = L.map('map').setView([-14.2350, -51.9253], 5);
 
-// --- MAPA BASE (ÚNICO!) ---
-const map = L.map('map').setView([-14.2350, -51.9253], 4);
-
+// Camada base do OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contribuidores'
+  maxZoom: 19
 }).addTo(map);
 
-// --- CASAS DE ACOLHIMENTO (FIXAS) ---
+// Lista de casas com coordenadas (formato correto!)
 const casas = [
-    // Elementos Originais (corrigidos para o formato [lat, lon] se necessário)
-    { 
-        "nome": "Casa Arco-Íris (SP)", 
-        "endereco": "Rua Liberdade, 123 - São Paulo, SP", 
-        "coords": [-23.561684, -46.655981] 
-    },
-    { 
-        "nome": "Refúgio Diversidade (RJ)", 
-        "endereco": "Av. Atlântica, 900 - Copacabana, RJ", 
-        "coords": [-22.971177, -43.182543] 
-    },
-    { 
-        "nome": "Casa da Coragem (PE)", 
-        "endereco": "Rua Aurora, 56 - Recife, PE", 
-        "coords": [-8.062762, -34.880016] 
-    },
-    
-    // Novos Elementos (propriedades removidas e coords convertidas para [lat, lon])
-    {
-        "nome": "Casa 1",
-        "endereco": "Rua Frederico Abranches, 136 - Santa Cecília",
-        "coords": [-23.5465, -46.6471] 
-    },
-    {
-        "nome": "GAPA-BA (Grupo de Apoio à Prevenção à AIDS da Bahia)",
-        "endereco": "Endereço a verificar",
-        "coords": [-12.9718, -38.5016] 
-    },
-    {
-        "nome": "SOMOS - Comunicação, Saúde e Sexualidade",
-        "endereco": "Endereço a verificar",
-        "coords": [-30.0331, -51.2300] 
-    },
-    {
-        "nome": "Instituto LGBT",
-        "endereco": "Endereço a verificar",
-        "coords": [-23.5500, -46.6333] 
-    },
-    {
-        "nome": "Casa Nem",
-        "endereco": "Endereço a verificar",
-        "coords": [-8.0476, -34.8770] 
-    },
-    {
-        "nome": "EternamenteSou (Centro de Referência idosos LGBT)",
-        "endereco": "Endereço a verificar",
-        "coords": [-23.5596, -46.6582] 
-    },
-    {
-        "nome": "ABGLT - Associação Brasileira de Gays, Lésbicas e Transsexuais (afiliadas regionais)",
-        "endereco": "Lista de afiliadas (várias cidades)",
-        "coords": [-14.2350, -51.9253] 
-    },
-    {
-        "nome": "Casa Florescer",
-        "endereco": "Rua Prates, 1101 - Bom Retiro (verificar)",
-        "coords": [-23.5412, -46.6468] 
-    },
-    {
-        "nome": "Grupo Gay da Bahia (GGB)",
-        "endereco": "Endereço a verificar",
-        "coords": [-12.9750, -38.5020] 
-    },
-    {
-        "nome": "Casa de Acolhimento Refúgio Diversidade (exemplo local)",
-        "endereco": "Endereço a verificar",
-        "coords": [-22.9712, -43.1825] 
-    },
-    {
-        "nome": "Coletivo LGBT Local (exemplo)",
-        "endereco": "Endereço a verificar",
-        "coords": [-19.9208, -43.9378] 
-    },
-    {
-        "nome": "Instituto Reviver LGBT (exemplo)",
-        "endereco": "Endereço a verificar",
-        "coords": [-8.0620, -34.8710] 
-    },
-    {
-        "nome": "Projeto Acolher LGBT (exemplo)",
-        "endereco": "Endereço a verificar",
-        "coords": [-22.9099, -47.0626] 
-    },
-    {
-        "nome": "Casa da Coragem (Casa de Acolhimento)",
-        "endereco": "Rua Aurora, 56 (exemplo)",
-        "coords": [-8.0627, -34.8800] 
-    },
-    {
-        "nome": "Centro de Cidadania LGBT (exemplo)",
-        "endereco": "Endereço a verificar",
-        "coords": [-23.5580, -46.6540] 
-    },
-    {
-        "nome": "ONG Diversidade e Direitos (exemplo)",
-        "endereco": "Endereço a verificar",
-        "coords": [-30.0340, -51.2250] 
-    },
-    {
-        "nome": "Casa Miga (exemplo)",
-        "endereco": "Endereço a verificar",
-        "coords": [-23.5555, -46.6400] 
-    },
-    {
-        "nome": "Centro de Apoio LGBT (exemplo)",
-        "endereco": "Endereço a verificar",
-        "coords": [-25.4290, -49.2719] 
-    },
-    {
-        "nome": "Projeto Vida LGBT (exemplo)",
-        "endereco": "Endereço a verificar",
-        "coords": [-21.1699, -47.8103] 
-    },
-    {
-        "nome": "Rede Nacional de Acolhimento LGBT (placeholder)",
-        "endereco": "Lista consolidada (diversas cidades)",
-        "coords": [-14.2350, -51.9253] 
-    }
+  { nome: "Casa 1", endereco: "R. Adoniran Barbosa, 151 - Bela Vista, São Paulo - SP", coords: [-23.555739, -46.646964] },
+
+  { nome: "Casa Florescer", endereco: "Rua Prates, 1101 - Bom Retiro, São Paulo - SP", coords: [-23.518109, -46.633606] },
+
+  { nome: "Centro de Cidadania LGBTI Luana Barbosa dos Reis", endereco: "R. Francisco Coelho, 23 - Jardim Santo Elias, São Paulo - SP", coords: [-23.510550, -46.750780] },
+
+  { nome: "Centro de Acolhida Especial Casarão Brasil", endereco: "R. Igará-Paraná, 94 - Vila Emir, São Paulo - SP", coords: [-23.689170, -46.645030] },
+
+  { nome: "Centro de Cidadania LGBTI Cláudia Wonder", endereco: "R. Alvarenga, 756 - Butantã, São Paulo - SP", coords: [-23.560680, -46.729790] },
+
+  { nome: "Centro de Cidadania LGBT Laura Vermont", endereco: "Av. Nordestina, 496 - Vila Americana, São Paulo - SP", coords: [-23.501290, -46.415750] },
+
+  { nome: "Centro de Referência LGBTI Edson Néris Zona Sul", endereco: "Estr. do Campo Limpo, 2690 - Campo Limpo, São Paulo - SP", coords: [-23.620250, -46.761820] },
+
+  { nome: "EternamenteSOU", endereco: "R. Br. de Itapetininga, 255 - República, São Paulo - SP", coords: [-23.548340, -46.641350] },
+
+  { nome: "Centro de Referência da Diversidade - Brunna Valin", endereco: "R. Maj. Sertório, 292 - República, São Paulo - SP", coords: [-23.540640, -46.648310] },
+
+  { nome: "Casa Neon Cunha", endereco: "R. Luiz Ferreira da Silva, 183 - São Bernardo do Campo - SP", coords: [-23.690900, -46.558160] },
+
+  { nome: "Casa Florescer 2", endereco: "R. Capricho, 872 - Vila Nivi, São Paulo - SP", coords: [-23.479540, -46.593750] },
+
+  { nome: "Casa Chama", endereco: "R. Jandaia, 128 - Bela Vista, São Paulo - SP", coords: [-23.561998, -46.644880] },
+
+  { nome: "Centro De Acolhida Especial Para Mulheres Transexuais", endereco: "Rua Prates, 1101 - Bom Retiro, São Paulo - SP", coords: [-23.518109, -46.633606] },
+
+  // MINAS GERAIS
+  { nome: "Centro de Referência e Acolhimento LGBT+", endereco: "Ouro Preto - MG", coords: [-20.385000, -43.503330] },
+
+  { nome: "Centro de Referência LGBT BH - CRLGBT", endereco: "R. Curitiba, 481 - Belo Horizonte - MG", coords: [-19.923450, -43.938720] },
+
+  { nome: "Kasulo - Centro LGBTQIA+", endereco: "R. Agnelo Macedo, 234 - Barreiro - BH", coords: [-19.977230, -44.019890] },
+
+  { nome: "CELLOS MG", endereco: "Rua dos Tupinambás, 330 - Centro, BH", coords: [-19.918240, -43.940030] },
+
+  { nome: "CRESP LGBTQIAP+", endereco: "R. Minas Gerais, 746 - Uberaba - MG", coords: [-19.749170, -47.931590] },
+
+  { nome: "Brejo das Sapas", endereco: "R. Alagoas, 1468 - Funcionários - BH", coords: [-19.934490, -43.930710] },
+
+  // ALAGOAS
+  { nome: "CAERR", endereco: "R. Gen. Hermes, 278 - Centro - Maceió - AL", coords: [-9.665410, -35.735680] },
+
+  // AMAZONAS
+  { nome: "Casa Miga", endereco: "R. Silva Ramos, 839 - Centro - Manaus - AM", coords: [-3.125750, -60.021230] },
+
+  // ARARAQUARA
+  { nome: "Casa Ricardo Corrêa da Silva", endereco: "R. Voluntários da Pátria, 3328 - Araraquara - SP", coords: [-21.793510, -48.182200] },
+
+  { nome: "Centro Nivaldo (Xuxa)", endereco: "Av. Espanha, 536 - Araraquara - SP", coords: [-21.785560, -48.177710] },
+
+  // FORTALEZA
+  { nome: "Outra Casa Coletiva", endereco: "R. Instituto do Ceará, 164 - Fortaleza - CE", coords: [-3.745330, -38.522720] },
+
+  // BAHIA
+  { nome: "Casarão da Diversidade", endereco: "R. do Tijolo, 8 - Salvador - BA", coords: [-12.971810, -38.508130] },
+
+  { nome: "Centro LGBT Vida Bruno", endereco: "Av. Oceânica, 3731 - Salvador - BA", coords: [-13.004420, -38.505300] },
+
+  { nome: "Casa Marielle Franco", endereco: "Ladeira da Fonte, 16 - Salvador - BA", coords: [-12.979700, -38.507000] },
+
+  // RIO DE JANEIRO
+  { nome: "CasaNem", endereco: "Rua Dois de Dezembro, 9 - Flamengo - RJ", coords: [-22.930840, -43.177960] },
+
+  { nome: "Casinha Tijuca", endereco: "R. da Cascata, 64 – Tijuca - RJ", coords: [-22.931700, -43.238900] },
+
+  { nome: "Conexão G", endereco: "R. Sgt. Silva Nunes, 1012 – Maré - RJ", coords: [-22.852280, -43.252180] },
+
+  { nome: "LGBT+ Movimento", endereco: "R. Hermenegildo de Barros, 44 – Santa Teresa - RJ", coords: [-22.916950, -43.185620] },
+
+  { nome: "Centro de Combate à LGBTIfobia RJ", endereco: "Av. Rio Branco, 135 - Centro - RJ", coords: [-22.909710, -43.176620] },
 ];
 
-// --- MARCADORES DAS CASAS FIXAS ---
+// Coloca as casas no mapa ao carregar
 casas.forEach(casa => {
     L.marker(casa.coords)
         .addTo(map)
         .bindPopup(`<h6 style="color:#e94b94;">${casa.nome}</h6><p>${casa.endereco}</p>`);
 });
 
-// --- FUNÇÃO HAVERSINE (distância em km) ---
-function calcularDistancia(lat1, lon1, lat2, lon2) {
+//------------------------------------------------------
+// BUSCAR CIDADE (OSM)
+//------------------------------------------------------
+async function buscarCidade(nomeCidade) {
+    const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(nomeCidade)}&limit=1`;
+
+    const resposta = await fetch(url);
+    const dados = await resposta.json();
+    if (dados.length === 0) {
+        alert("Cidade não encontrada.");
+        return null;
+    }
+
+    return { lat: parseFloat(dados[0].lat), lon: parseFloat(dados[0].lon) };
+}
+
+//------------------------------------------------------
+// DISTÂNCIA
+//------------------------------------------------------
+function distancia(lat1, lon1, lat2, lon2) {
     const R = 6371;
     const dLat = (lat2 - lat1) * Math.PI / 180;
     const dLon = (lon2 - lon1) * Math.PI / 180;
-
-    const a =
-        Math.sin(dLat / 2) ** 2 +
-        Math.cos(lat1 * Math.PI / 180) *
-        Math.cos(lat2 * Math.PI / 180) *
-        Math.sin(dLon / 2) ** 2;
-
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    return R * c;
+    const a = Math.sin(dLat/2)**2 +
+              Math.cos(lat1*Math.PI/180) *
+              Math.cos(lat2*Math.PI/180) *
+              Math.sin(dLon/2)**2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 }
 
-// =======================================================
-// === LOCALIZA USUÁRIO + OSM + GOOGLE (HÍBRIDO!) ===
-// =======================================================
-async function localizarUsuarioECasas() {
-    if (!navigator.geolocation) {
-        alert("Seu navegador não suporta geolocalização.");
+//------------------------------------------------------
+// BOTÃO: buscar cidade + achar casas próximas
+//------------------------------------------------------
+document.getElementById("btnLocalizar").addEventListener("click", async () => {
+    const campo = document.querySelector(".search-input");
+    const cidade = campo.value.trim();
+
+    if (cidade === "") {
+        alert("Digite uma cidade.");
         return;
     }
 
-    navigator.geolocation.getCurrentPosition(async (pos) => {
-        const userLat = pos.coords.latitude;
-        const userLon = pos.coords.longitude;
+    const pos = await buscarCidade(cidade);
+    if (!pos) return;
 
-        // marcador do usuário
-        L.marker([userLat, userLon], {
-            icon: L.icon({
-                iconUrl: "https://cdn-icons-png.flaticon.com/512/64/64113.png",
-                iconSize: [40, 40]
-            })
-        }).addTo(map).bindPopup("Você está aqui!").openPopup();
+    const userLat = pos.lat;
+    const userLon = pos.lon;
 
-        map.setView([userLat, userLon], 13);
-
-        // === BUSCA OSM ===
-        const casasAPI = await buscarCasasLGBT(userLat, userLon);
-
-        casasAPI.forEach(c => {
-            L.marker(c.coords, {
-                icon: L.icon({
-                    iconUrl: "https://cdn-icons-png.flaticon.com/512/2920/2920238.png",
-                    iconSize: [35, 35]
-                })
-            })
-                .addTo(map)
-                .bindPopup(`<h6 style="color:#e94b94;">${c.nome}</h6><p>${c.endereco}</p>`);
-        });
-
-        // === BUSCA GOOGLE (NOVO!) ===
-        const casasGoogle = await searchGooglePlaces(userLat, userLon);
-
-        addGooglePlacesToMap(casasGoogle);
-
-        // junta casas fixas + OSM + Google
-        const todasCasas = [...casas, ...casasAPI, ...casasGoogle];
-
-        // ordena por proximidade
-        const casasOrdenadas = todasCasas
-            .map(c => ({
-                ...c,
-                distancia: calcularDistancia(userLat, userLon, c.coords[0], c.coords[1])
-            }))
-            .sort((a, b) => a.distancia - b.distancia);
-
-        atualizarListaCasas(casasOrdenadas);
-
-        // marca a mais próxima
-        L.circle(casasOrdenadas[0].coords, {
-            radius: 300,
-            color: "#e94b94"
-        }).addTo(map);
-
-    }, err => {
-        console.log("Erro:", err);
-        alert("Não foi possível obter sua localização.");
+    // Remove marcadores antigos (mantém o mapa)
+    map.eachLayer(layer => {
+        if (layer instanceof L.Marker && !layer._icon.src) map.removeLayer(layer);
     });
-}
 
-// --- ATUALIZA LISTA NO HTML ---
-function atualizarListaCasas(lista) {
-    const div = document.getElementById("lista");
-    if (!div) return;
-
-    div.innerHTML = "<h3>Casas mais próximas:</h3>";
-
-    lista.forEach(c => {
-        div.innerHTML += `
-            <div style="margin-bottom:10px; padding:10px; border-left:4px solid #e94b94;">
-                <strong>${c.nome}</strong><br>
-                ${c.endereco}<br>
-                <small>Distância: ${c.distancia.toFixed(2)} km</small>
-            </div>
-        `;
+    // Recarrega as casas
+    casas.forEach(casa => {
+        L.marker(casa.coords)
+            .addTo(map)
+            .bindPopup(`<h6 style="color:#e94b94;">${casa.nome}</h6><p>${casa.endereco}</p>`);
     });
-}
 
-// --- INICIALIZAÇÃO ---
-document.addEventListener("DOMContentLoaded", () => {
-    localizarUsuarioECasas();
+    // Marca a cidade buscada
+    L.marker([userLat, userLon])
+        .addTo(map)
+        .bindPopup(`📍 ${cidade}`)
+        .openPopup();
+
+    map.setView([userLat, userLon], 12);
+
+    // Ordenar casas por proximidade
+    const casasOrdenadas = casas
+        .map(c => ({
+            ...c,
+            distancia: distancia(userLat, userLon, c.coords[0], c.coords[1])
+        }))
+        .sort((a, b) => a.distancia - b.distancia);
+
+    // Mostrar só as 5 mais próximas
+    casasOrdenadas.slice(0, 5).forEach(c => {
+        L.marker(c.coords)
+            .addTo(map)
+            .bindPopup(`<h6 style="color:#e94b94;">${c.nome}</h6>${c.endereco}`);
+    });
+
+    alert("Casas mais próximas encontradas!");
 });
