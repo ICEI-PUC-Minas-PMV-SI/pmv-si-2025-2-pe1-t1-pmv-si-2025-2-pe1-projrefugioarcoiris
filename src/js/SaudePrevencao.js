@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
 
 
-            }, 100); // 1.5 segundos de simulação
+            }, 1500); // 1.5 segundos de simulação
 
         } else {
             // Se o formulário for inválido, exibe uma mensagem genérica de erro (o Bootstrap já cuida dos campos individuais)
@@ -51,6 +51,8 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
         }
 
+        // 4. Aplica as classes de validação do Bootstrap (is-valid ou is-invalid) a todos os campos
+        // Isso faz com que as mensagens de erro/sucesso apareçam abaixo de cada campo
         form.classList.add('was-validated');
 
         Array.from(form.elements).forEach(element => {
