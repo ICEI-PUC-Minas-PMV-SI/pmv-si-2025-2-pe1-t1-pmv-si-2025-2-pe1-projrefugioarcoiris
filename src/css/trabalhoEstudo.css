@@ -1,11 +1,12 @@
 /* ==================================== */
 /* ESTILOS PARA BOTÕES (btn-rosa)       */
 /* ==================================== */
+
 .btn-rosa {
     background-color: #ff4da6;
     color: #fff;
     border: none;
-    
+
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; 
 }
 
@@ -120,6 +121,7 @@
 /* Títulos e textos */
 .titulo-principal2 {
     color: #d63384;
+   
 }
 
 .subtitulo-principal {
@@ -144,6 +146,11 @@ body, html {
     margin: 0;
     padding: 0;
 }
+
+.texto-intro {
+    margin-left: 50px; 
+}
+
 
 .container, main, section {
     max-width: 100%;
