@@ -188,7 +188,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |-------------------|---------------------------|
 | **Caso de Teste** | CT13 - Imagens otimizadas |
 | **Requisito Associado** | RFN05 - As imagens utilizadas no sistema devem ser otimizadas para não ultrapassar 500KB cada. |
-| **Link do vídeo do teste realizado** | [ImagensOtimizadas.mp4](https://sgapucminasbr.sharepoint.com/_layouts/15/stream.aspx?action=create&captureMode=screenrecorder&referrer=VideoHub&referrerScenario=CreateSection&isDarkMode=false) |
+| **Link do vídeo do teste realizado** | [Imagensotimizadas.mp4](https://sgapucminasbr.sharepoint.com/_layouts/15/stream.aspx?action=create&captureMode=screenrecorder&referrer=VideoHub&referrerScenario=CreateSection&isDarkMode=false) |
 
 
 
