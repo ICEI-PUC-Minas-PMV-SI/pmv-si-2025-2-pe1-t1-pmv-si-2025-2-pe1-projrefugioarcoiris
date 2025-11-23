@@ -99,15 +99,11 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-# Caso de Teste – CT03
+| **Caso de Teste** | CT01 - Encontrar casas de acolhimento |
+|-------------------|----------------------------------------|
+| **Requisito Associado** | RF01 - Oferecer um mecanismo de busca para lugares de apoio próximos do usuário. |
+| **Link do vídeo do teste realizado** | *CasaDeAcolhimento.mp4* |
 
-| **Caso de Teste**        | **CT03 – Acesso a programas de empregabilidade** |
-|--------------------------|--------------------------------------------------|
-| **Procedimento**         | 1) Acesse a página *Trabalho e Estudo*.<br><br>2) Encontre "Programas de Empregabilidade LGBTQIA+".<br><br>3) Clique em "Saiba Mais".<br><br>4) Seja direcionado ao site de projetos inclusivos. |
-| **Requisitos associados**| RF03                                             |
-| **Resultado esperado**   | Localizar programas que oferecem oportunidades de trabalhos inclusivos. |
-| **Dados de entrada**     | Clique no botão e seja direcionado para o link de acesso para conhecer iniciativas e projetos que ajudam na inserção profissional da comunidade LGBTQIA+. |
-| **Resultado obtido**     | Sucesso.                                         |
 
 
 
