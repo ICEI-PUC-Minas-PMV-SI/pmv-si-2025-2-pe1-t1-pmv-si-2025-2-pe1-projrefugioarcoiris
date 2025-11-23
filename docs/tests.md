@@ -118,7 +118,40 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 | **Requisito Associado** | RF03 - Acesso a oportunidades de emprego que valorizam a diversidade e a comunidade. |
 | **Link do vídeo do teste realizado** | [Trabalho1](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCwi8OPOJQxQLvX1SZ4zBVDAXdkzZdmjrdaP5waqvWRlr4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gu6CdX) |
 
+# Caso de Teste – CT04
 
+| **Caso de Teste** | CT04 - Programas de empregabilidade |
+|-------------------|--------------------------------------|
+| **Requisito Associado** | RF03 - Disponibilizar informações sobre oportunidades de emprego inclusivas que apoiam a comunidade. |
+| **Link do vídeo do teste realizado** | [Trabalho2](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDNwQc6X0auTYPlGbM7gmbmAcTYG6tji5cFNUkTCvBFf1w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1x5piw) |
+
+# Caso de Teste – CT05
+
+| **Caso de Teste** | CT05 - Descobrindo direitos |
+|-------------------|-----------------------------|
+| **Requisito Associado** | RF04 - Informações sobre a legislação e os direitos garantidos à população LGBTQIA+. |
+| **Link do vídeo do teste realizado** | [Direitos](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQARzk1tgekpR5f42ewzXF_7AUlhm_iODcvWMENPK9WVXYw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DVnhfc) |
+
+# Caso de Teste – CT06
+
+| **Caso de Teste** | CT06 - Quiz educativo |
+|-------------------|------------------------|
+| **Requisito Associado** | RF04 - Disponibilizar informações sobre legislações e direitos da comunidade LGBTQIA+. |
+| **Link do vídeo do teste realizado** | [Direitos2](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDRXGdziS3STp3sOBojZpmvAYi4uM-fYhEyA_TBADNHSbw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q40XvL) |
+
+# Caso de Teste – CT07
+
+| **Caso de Teste** | CT07 - Filtrando serviços |
+|-------------------|---------------------------|
+| **Requisito Associado** | RF05 - Permitir que o usuário filtre serviços por tipo (saúde, jurídico, atendimento psicológico e social). |
+| **Link do vídeo do teste realizado** | [FiltrarServiços](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQC3Rxjf2O3bTqzJCE0jI2C3AZjp7m4LekFZt1t-ks5wEPk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BQeMcV) |
+
+# Caso de Teste – CT08
+
+| **Caso de Teste** | CT08 - Filtrando serviços |
+|-------------------|---------------------------|
+| **Requisito Associado** | RF06 - Orientar onde recorrer para denúncias de casos de violência ou discriminação. |
+| **Link do vídeo do teste realizado** | [ComoDenunciar.mp4](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCRdazz9FzcQ73PRggUIeqvAVu2FfBS_T-mOFlmLiU80zI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5CRC1c) |
 
 
 
