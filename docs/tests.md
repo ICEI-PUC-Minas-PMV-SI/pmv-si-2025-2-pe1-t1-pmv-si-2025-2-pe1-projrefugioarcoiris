@@ -196,7 +196,10 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Os testes mostraram que o sistema está funcionando corretamente e atendendo aos requisitos propostos. Identificamos como pontos fortes a estabilidade e a boa integração das funcionalidades. Também surgiram alguns pontos que podem ser aprimorados, embora não comprometam o uso.
+
+Nas próximas etapas, o grupo pretende trabalhar nesses ajustes para melhorar o desempenho e a experiência geral.
+
 
 ## Testes de unidade automatizados (Opcional)
 
