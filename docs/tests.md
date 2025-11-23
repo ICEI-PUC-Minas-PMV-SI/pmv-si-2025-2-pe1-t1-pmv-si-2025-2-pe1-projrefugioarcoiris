@@ -151,34 +151,55 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 | **Caso de Teste** | CT08 - Filtrando serviços |
 |-------------------|---------------------------|
 | **Requisito Associado** | RF06 - Orientar onde recorrer para denúncias de casos de violência ou discriminação. |
-| **Link do vídeo do teste realizado** | [ComoDenunciar.mp4](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCRdazz9FzcQ73PRggUIeqvAVu2FfBS_T-mOFlmLiU80zI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5CRC1c) |
+| **Link do vídeo do teste realizado** | [Como Denunciar](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCRdazz9FzcQ73PRggUIeqvAVu2FfBS_T-mOFlmLiU80zI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5CRC1c) |
 
 # Caso de Teste – CT09
 
 | **Caso de Teste** | CT09 - Filtrando serviços |
 |-------------------|---------------------------|
 | **Requisito Associado** | RFN01 - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Edge e Safari). |
-| **Link do vídeo do teste realizado** | [SistemaCompativel.mp4](https://sgapucminasbr-my-sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDqfdgLezaLRoAzyD4siK0fAaN5PpDl78027pDRX0hHvUc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XGMgS3) |
+| **Link do vídeo do teste realizado** | [Sistema Compativel](https://sgapucminasbr-my-sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDqfdgLezaLRoAzyD4siK0fAaN5PpDl78027pDRX0hHvUc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XGMgS3) |
 
 # Caso de Teste – CT10
 
 | **Caso de Teste** | CT10 - Filtrando serviços |
 |-------------------|---------------------------|
 | **Requisito Associado** | RFN02 - O tempo de carregamento das páginas não deve ultrapassar 3 segundos. |
-| **Link do vídeo do teste realizado** | [CarregamenteRapido.mp4](https://sgapucminasbr-my-sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDKjfcBIua2T56pEIcQ-4cfAaHwnhGxFXi48qepMBwWtcw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLnxcg) |
+| **Link do vídeo do teste realizado** | [Carregamento Rapido](https://sgapucminasbr-my-sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDKjfcBIua2T56pEIcQ-4cfAaHwnhGxFXi48qepMBwWtcw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLnxcg) |
 
 # Caso de Teste – CT11
 
-| **Caso de Teste** | CT10 - Filtrando serviços |
+| **Caso de Teste** | CT11 - Filtrando serviços |
 |-------------------|---------------------------|
 | **Requisito Associado** | RFN03 - O sistema deve ser responsivo, funcionando em dispositivos móveis, tablets e desktops. |
-| **Link do vídeo do teste realizado** | [Responsivel.mp4](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDkZNlcE7UoQrsG3sFmyOp1AVmyB282G1h0bIAGeXgaJEE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZS)
+| **Link do vídeo do teste realizado** | [Responsivel](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDkZNlcE7UoQrsG3sFmyOp1AVmyB282G1h0bIAGeXgaJEE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZS)
+
+# Caso de Teste – CT12
+
+| **Caso de Teste** | CT12 - Filtrando serviços |
+|-------------------|---------------------------|
+| **Caso de Teste** | CT12 - Mensagem de erro |
+| **Requisito Associado** | RFN04 - O sistema deve exibir mensagens de erro claras e objetivas em caso de falha. |
+| **Link do vídeo do teste realizado** | [pagina com erro](https://sgapucminasbr.sharepoint.com/_layouts/15/stream.aspx?sw=bypass&bypassReason=abandoned&action=create&captureMode=screenrecorder&referrer=VideoHub&referrerScenario=CreateSection&startedResponseCatch=true&isDarkMode=false) |
+
+# Caso de Teste – CT13
+
+| **Caso de Teste** | CT13 - Filtrando serviços |
+|-------------------|---------------------------|
+| **Caso de Teste** | CT13 - Imagens otimizadas |
+| **Requisito Associado** | RFN05 - As imagens utilizadas no sistema devem ser otimizadas para não ultrapassar 500KB cada. |
+| **Link do vídeo do teste realizado** | [Imagens otimizadas](https://sgapucminasbr.sharepoint.com/_layouts/15/stream.aspx?action=create&captureMode=screenrecorder&referrer=VideoHub&referrerScenario=CreateSection&isDarkMode=false) |
+
+
 
 
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Os testes mostraram que o sistema está funcionando corretamente e atendendo aos requisitos propostos. Identificamos como pontos fortes a estabilidade e a boa integração das funcionalidades. Também surgiram alguns pontos que podem ser aprimorados, embora não comprometam o uso.
+
+Nas próximas etapas, o grupo pretende trabalhar nesses ajustes para melhorar o desempenho e a experiência geral.
+
 
 ## Testes de unidade automatizados (Opcional)
 
