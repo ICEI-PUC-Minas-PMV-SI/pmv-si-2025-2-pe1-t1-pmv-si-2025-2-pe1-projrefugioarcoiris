@@ -153,6 +153,26 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 | **Requisito Associado** | RF06 - Orientar onde recorrer para denúncias de casos de violência ou discriminação. |
 | **Link do vídeo do teste realizado** | [ComoDenunciar.mp4](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCRdazz9FzcQ73PRggUIeqvAVu2FfBS_T-mOFlmLiU80zI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5CRC1c) |
 
+# Caso de Teste – CT09
+
+| **Caso de Teste** | CT09 - Filtrando serviços |
+|-------------------|---------------------------|
+| **Requisito Associado** | RFN01 - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Edge e Safari). |
+| **Link do vídeo do teste realizado** | [SistemaCompativel.mp4](https://sgapucminasbr-my-sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDqfdgLezaLRoAzyD4siK0fAaN5PpDl78027pDRX0hHvUc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XGMgS3) |
+
+# Caso de Teste – CT10
+
+| **Caso de Teste** | CT10 - Filtrando serviços |
+|-------------------|---------------------------|
+| **Requisito Associado** | RFN02 - O tempo de carregamento das páginas não deve ultrapassar 3 segundos. |
+| **Link do vídeo do teste realizado** | [CarregamenteRapido.mp4](https://sgapucminasbr-my-sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDKjfcBIua2T56pEIcQ-4cfAaHwnhGxFXi48qepMBwWtcw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLnxcg) |
+
+# Caso de Teste – CT11
+
+| **Caso de Teste** | CT10 - Filtrando serviços |
+|-------------------|---------------------------|
+| **Requisito Associado** | RFN03 - O sistema deve ser responsivo, funcionando em dispositivos móveis, tablets e desktops. |
+| **Link do vídeo do teste realizado** | [Responsivel.mp4](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDkZNlcE7UoQrsG3sFmyOp1AVmyB282G1h0bIAGeXgaJEE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZS)
 
 
 
