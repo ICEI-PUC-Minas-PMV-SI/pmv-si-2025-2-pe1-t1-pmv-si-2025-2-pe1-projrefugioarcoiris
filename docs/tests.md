@@ -169,10 +169,28 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 # Caso de Teste – CT11
 
-| **Caso de Teste** | CT10 - Filtrando serviços |
+| **Caso de Teste** | CT11 - Filtrando serviços |
 |-------------------|---------------------------|
 | **Requisito Associado** | RFN03 - O sistema deve ser responsivo, funcionando em dispositivos móveis, tablets e desktops. |
 | **Link do vídeo do teste realizado** | [Responsivel.mp4](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDkZNlcE7UoQrsG3sFmyOp1AVmyB282G1h0bIAGeXgaJEE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZS)
+
+# Caso de Teste – CT12
+
+| **Caso de Teste** | CT12 - Filtrando serviços |
+|-------------------|---------------------------|
+| **Caso de Teste** | CT12 - Mensagem de erro |
+| **Requisito Associado** | RFN04 - O sistema deve exibir mensagens de erro claras e objetivas em caso de falha. |
+| **Link do vídeo do teste realizado** | [paginacomerro.mp4](https://sgapucminasbr.sharepoint.com/_layouts/15/stream.aspx?sw=bypass&bypassReason=abandoned&action=create&captureMode=screenrecorder&referrer=VideoHub&referrerScenario=CreateSection&startedResponseCatch=true&isDarkMode=false) |
+
+# Caso de Teste – CT13
+
+| **Caso de Teste** | CT13 - Filtrando serviços |
+|-------------------|---------------------------|
+| **Caso de Teste** | CT13 - Imagens otimizadas |
+| **Requisito Associado** | RFN05 - As imagens utilizadas no sistema devem ser otimizadas para não ultrapassar 500KB cada. |
+| **Link do vídeo do teste realizado** | [ImagensOtimizadas.mp4](https://sgapucminasbr.sharepoint.com/_layouts/15/stream.aspx?action=create&captureMode=screenrecorder&referrer=VideoHub&referrerScenario=CreateSection&isDarkMode=false) |
+
+
 
 
 
