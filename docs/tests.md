@@ -244,32 +244,31 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Acesso a lugares seguros como casas de acolhimento e conhecimento de empresas que têm vagas específicas voltadas a um público mais diversos.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+|--------|------------------|-----------------------|--------------------------------|
+| **1** | SIM | 5 | 32.56 segundos |
+| **2** | SIM | 5 | 18.14 segundos |
+| **3** | SIM | 5 | 29.09 segundos |
+| **Média** | **100%** | **5** | **26.59 segundos** |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 9.18 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+   Comentários dos usuários: Achei fácil de mexer, ele é muito intuitivo o que facilita muito.
+Não tive dificuldades e acho que ficou muito bom.
+.
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Encontrar apoio psicológico inclusivo e livre de preconceito no qual ele se sinta confortável em compartilhar suas dores e lidar com questões emocionais com um profissional que ofereça pertencimento e segurança.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+|--------|------------------|-----------------------|--------------------------------|
+| **1** | SIM | 5 | 32.56 segundos |
+| **2** | SIM | 5 | 18.14 segundos |
+| **3** | SIM | 5 | 29.09 segundos |
+| **Média** | **100%** | **5** | **26.59 segundos** |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 9.18 segundos |
 
 
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
