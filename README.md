@@ -39,3 +39,5 @@ O projeto Refugio Arco-Íris tem como objetivo desenvolver um sistema web front-
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+
+<li><a href="https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris"> Acesse o site do projeto</a></li>
