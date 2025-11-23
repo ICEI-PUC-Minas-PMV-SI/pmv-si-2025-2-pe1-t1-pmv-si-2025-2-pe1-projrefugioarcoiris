@@ -25,13 +25,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 | **Resultado obtido**     | Sucesso.                                  |
 
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+# Caso de Teste – CT02
+
+| **Caso de Teste**        | **CT02 – Contatos de apoios psicológicos com profissionais inclusivos** |
+|--------------------------|-------------------------------------------------------------------------|
+| **Procedimento**         | 1) Acesse a página *Atendimento Psicológico*.<br><br>2) Encontre "Lista de Psicólogos Inclusivos" e clique em "Acessar" naquele que melhor atende às suas necessidades. |
+| **Requisitos associados**| RF02                                                                    |
+| **Resultado esperado**   | Links que direcionam para páginas de psicólogos inclusivos.             |
+| **Resultado obtido**     | Sucesso.                                                                |
 
 ## Registro dos Testes de Software
 
