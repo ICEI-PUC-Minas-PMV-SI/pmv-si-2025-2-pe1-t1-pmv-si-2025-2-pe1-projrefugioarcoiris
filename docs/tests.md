@@ -18,7 +18,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 | **Caso de Teste**        | **CT01 – Encontrar casas de acolhimento** |
 |--------------------------|-------------------------------------------|
-| **Procedimento**         | 1) Acesse a página *Casas de acolhimento*.<br>2) Digite seu estado.<br>3) Clique no botão **Buscar**.<br>4) Clique no botão **OK**. |
+| **Procedimento**         | 1) Acesse a página *Casas de acolhimento*.<br>2) Digite seu estado.<br>3) Clique no botão "Buscar".<br>4) Clique no botão "OK". |
 | **Requisitos associados**| RF01                                      |
 | **Resultado esperado**   | Encontrar uma casa de acolhimento mais próxima do usuário. |
 | **Dados de entrada**     | Digite seu estado.                        |
