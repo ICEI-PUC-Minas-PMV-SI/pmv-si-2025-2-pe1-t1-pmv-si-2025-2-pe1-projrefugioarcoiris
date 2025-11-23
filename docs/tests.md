@@ -29,10 +29,74 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 | **Caso de Teste**        | **CT02 – Contatos de apoios psicológicos com profissionais inclusivos** |
 |--------------------------|-------------------------------------------------------------------------|
-| **Procedimento**         | 1) Acesse a página *Atendimento Psicológico*.<br><br>2) Encontre "Lista de Psicólogos Inclusivos" e clique em "Acessar" naquele que melhor atende às suas necessidades. |
+| **Procedimento**         | 1) Acesse a página "Atendimento Psicológico".<br><br>2) Encontre "Lista de Psicólogos Inclusivos" e clique em "Acessar" naquele que melhor atende às suas necessidades. |
 | **Requisitos associados**| RF02                                                                    |
 | **Resultado esperado**   | Links que direcionam para páginas de psicólogos inclusivos.             |
-| **Resultado obtido**     | Sucesso.                                                                |
+| **Resultado obtido**     | Sucesso.   
+
+# Caso de Teste – CT03
+
+| **Caso de Teste**        | **CT03 – Acesso a programas de empregabilidade** |
+|--------------------------|--------------------------------------------------|
+| **Procedimento**         | 1) Acesse a página "Trabalho e Estudo".<br><br>2) Encontre "Programas de Empregabilidade LGBTQIA+".<br><br>3) Clique em "Saiba Mais".<br><br>4) Seja direcionado ao site de projetos inclusivos. |
+| **Requisitos associados**| RF03                                             |
+| **Resultado esperado**   | Localizar programas que oferecem oportunidades de trabalhos inclusivos. |
+| **Dados de entrada**     | Clique no botão e seja direcionado para o link de acesso para conhecer iniciativas e projetos que ajudam na inserção profissional da comunidade LGBTQIA+. |
+| **Resultado obtido**     | Sucesso.                                         |
+
+# Caso de Teste – CT04
+
+| Caso de Teste | CT04 - Encontrar vagas de empregos Inclusiva |
+| :--- | :--- |
+| **Procedimento** | 1) Acesse a página Trabalho e Estudo. |
+| | 2) Localize "Encontre vagas de emprego na sua área". |
+| | 3) Seja direcionado ao link de um formulário para se conectar com vagas inclusivas na sua região. |
+| **Requisitos associados** | RF03 |
+| **Resultado esperado** | Se conectar a vagas afirmativas para pessoas LGBTQIA+ na sua região. |
+| **Resultado obtido** | Sucesso. |
+
+# Caso de Teste – CT05
+
+| **Caso de Teste** | CT05 - Descobrindo direitos |
+| **Procedimento** | 1) Acesse a página Legislação. |
+| | 2) Clique em "Descubra um direito que garante o seu orgulho". |
+| | 3) Para sair aperte no "x" no canto superior esquerdo. |
+| **Requisitos associados** | RF04 |
+| **Resultado esperado** | Aparecer uma caixinha mostrando diferentes direitos da comunidade LGBTQIA+. |
+| **Resultado obtido** | Sucesso. |
+
+# Caso de Teste – CT06
+
+| **Caso de Teste** | CT06 - Quiz educativo |
+| **Procedimento** | 1) Acesse a página Legislação. |
+| | 2) Ler a pergunta. |
+| | 3) Selecione uma alternativa, o sistema verifica se está correta. |
+| | 4) Clique em "próxima" e responda as outras nove perguntas. |
+| | 5) Descubra quantas questões você acertou e quantos direitos novos você descobriu. |
+| **Requisitos associados** | RF04 |
+| **Resultado esperado** | Informar direitos de forma interativa e permitir que o usuário testar seus conhecimentos sobre direitos dos quais já conhece. |
+| **Resultado obtido** | Sucesso. |
+
+# Caso de Teste – CT07
+
+| **Caso de Teste** | CT07 - Filtrando serviços |
+| **Procedimento** | 1) Foi criado um menu de filtragem responsivo, capaz de se adaptar a diferentes dispositivos e resoluções de tela, garantindo acessibilidade e usabilidade. |
+| **Requisitos associados** | RF05 |
+| **Resultado esperado** | Opção de seleção de serviço pelo usuário. |
+| **Resultado obtido** | Sucesso. |
+
+# Caso de Teste – CT08
+
+| **Caso de Teste** | CT08 - Filtrando serviços |
+| **Caso de Teste (Assumido)** | [Não visível na imagem] - Canais de Denúncia |
+| **Procedimento** | 1) Acesse a página Legislação. |
+| | 2) Clique em "Canais oficiais de denúncia". |
+| | 3) Conheça canais oficiais para que seja realizada denúncia. |
+| | 4) Para sair aperte no "x" no canto superior esquerdo. |
+| **Requisitos associados** | RF06 |
+| **Resultado esperado** | Aparece uma caixinha mostrando canais para fazer denúncia. |
+| **Resultado obtido** | Sucesso. |
+
 
 ## Registro dos Testes de Software
 
@@ -48,29 +112,6 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 | **Dados de entrada**     | Clique no botão e seja direcionado para o link de acesso para conhecer iniciativas e projetos que ajudam na inserção profissional da comunidade LGBTQIA+. |
 | **Resultado obtido**     | Sucesso.                                         |
 
-
-## Caso de Teste  
-**CT04 – Encontrar vagas de empregos inclusivas**
-
----
-
-## Procedimento  
-1. Acesse a página **Trabalho e Estudo**.  
-2. Localize a seção **“Encontre vagas de emprego na sua área”**.  
-3. Clique no link indicado.  
-4. Seja direcionado ao formulário para se conectar a vagas inclusivas na sua região.
----
-## Requisitos associados  
-**RF03**
----
-## Resultado esperado  
-Se conectar a vagas afirmativas para pessoas LGBTQIA+ na sua região.
----
-## Dados de entrada  
-Nenhum.
----
-## Resultado obtido  
-**Sucesso.**
 
 
 ## Avaliação dos Testes de Software
