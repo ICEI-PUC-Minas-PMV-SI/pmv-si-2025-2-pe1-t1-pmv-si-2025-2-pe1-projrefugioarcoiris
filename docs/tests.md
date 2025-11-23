@@ -104,6 +104,21 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 | **Requisito Associado** | RF01 - Oferecer um mecanismo de busca para lugares de apoio próximos do usuário. |
 | **Link do vídeo do teste realizado** | [Casa de Acolhimento](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCQfLW8jPFCTJiJAaMs4xDPAbyQlz6-NFPKBpEhv30hEI0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JNZFBg) |
 
+# Caso de Teste – CT02
+
+| **Caso de Teste** | CT02 - Contatos de apoio psicológico com profissionais inclusivos |
+|-------------------|------------------------------------------------------------------|
+| **Requisito Associado** | RF02 - O sistema deve oferecer contatos de apoio psicológico com indicação de profissionais inclusivos. |
+| **Link do vídeo do teste realizado** | [Atendimento Psicológico](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQAsfeFSg4QkTqixYH1QwUeVAXtImxA0UJQi56OQV-k-QNs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1cDLGl) |
+
+# Caso de Teste – CT03
+
+| **Caso de Teste** | CT03 - Encontrar vagas de empregos na sua área |
+|-------------------|------------------------------------------------|
+| **Requisito Associado** | RF03 - Acesso a oportunidades de emprego que valorizam a diversidade e a comunidade. |
+| **Link do vídeo do teste realizado** | [Trabalho1](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCwi8OPOJQxQLvX1SZ4zBVDAXdkzZdmjrdaP5waqvWRlr4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gu6CdX) |
+
+
 
 
 
