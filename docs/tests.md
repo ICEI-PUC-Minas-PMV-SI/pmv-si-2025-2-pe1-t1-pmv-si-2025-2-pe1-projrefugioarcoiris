@@ -38,15 +38,39 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+# Caso de Teste – CT03
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+| **Caso de Teste**        | **CT03 – Acesso a programas de empregabilidade** |
+|--------------------------|--------------------------------------------------|
+| **Procedimento**         | 1) Acesse a página *Trabalho e Estudo*.<br><br>2) Encontre "Programas de Empregabilidade LGBTQIA+".<br><br>3) Clique em "Saiba Mais".<br><br>4) Seja direcionado ao site de projetos inclusivos. |
+| **Requisitos associados**| RF03                                             |
+| **Resultado esperado**   | Localizar programas que oferecem oportunidades de trabalhos inclusivos. |
+| **Dados de entrada**     | Clique no botão e seja direcionado para o link de acesso para conhecer iniciativas e projetos que ajudam na inserção profissional da comunidade LGBTQIA+. |
+| **Resultado obtido**     | Sucesso.                                         |
+
+
+## Caso de Teste  
+**CT04 – Encontrar vagas de empregos inclusivas**
+
+---
+
+## Procedimento  
+1. Acesse a página **Trabalho e Estudo**.  
+2. Localize a seção **“Encontre vagas de emprego na sua área”**.  
+3. Clique no link indicado.  
+4. Seja direcionado ao formulário para se conectar a vagas inclusivas na sua região.
+---
+## Requisitos associados  
+**RF03**
+---
+## Resultado esperado  
+Se conectar a vagas afirmativas para pessoas LGBTQIA+ na sua região.
+---
+## Dados de entrada  
+Nenhum.
+---
+## Resultado obtido  
+**Sucesso.**
 
 
 ## Avaliação dos Testes de Software
