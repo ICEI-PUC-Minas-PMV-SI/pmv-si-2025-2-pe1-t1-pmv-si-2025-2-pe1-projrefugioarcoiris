@@ -102,7 +102,8 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 | **Caso de Teste** | CT01 - Encontrar casas de acolhimento |
 |-------------------|----------------------------------------|
 | **Requisito Associado** | RF01 - Oferecer um mecanismo de busca para lugares de apoio próximos do usuário. |
-| **Link do vídeo do teste realizado** | *CasaDeAcolhimento.mp4* |
+| **Link do vídeo do teste realizado** | [Casa de Acolhimento](https://sgapucminasbr-my.sharepoint.com/personal/1629063_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCQfLW8jPFCTJiJAaMs4xDPAbyQlz6-NFPKBpEhv30hEI0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JNZFBg) |
+
 
 
 
