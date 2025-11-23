@@ -182,7 +182,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 ## Testes de unidade automatizados (Opcional)
 
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
+Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. 
 
 # Testes de Usabilidade
 
@@ -213,10 +213,11 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Cenários de Teste de Usabilidade
 
-| Nº do Cenário | Descrição do cenário |
-|---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| **Nº do Cenário** | **Descrição do Cenário** |
+|------------------:|---------------------------|
+| **1** | Acesso a lugares seguros como casas de acolhimento e conhecimento de empresas que têm vagas específicas voltadas a um público mais diverso. |
+| **2** | Encontrar apoio psicológico inclusivo e livre de preconceito, no qual o usuário se sinta confortável para compartilhar suas dores e lidar com questões emocionais com um profissional que ofereça pertencimento e segurança. |
+| **3** | Material explicativo sobre doenças sexuais e medidas a serem tomadas para se prevenir. |
 
 
 
