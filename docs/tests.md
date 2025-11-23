@@ -57,45 +57,42 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 # Caso de Teste – CT05
 
-| **Caso de Teste** | CT05 - Descobrindo direitos |
-| **Procedimento** | 1) Acesse a página Legislação. |
-| | 2) Clique em "Descubra um direito que garante o seu orgulho". |
-| | 3) Para sair aperte no "x" no canto superior esquerdo. |
+| **Caso de Teste**         | **CT05 - Descobrindo direitos** |
+|---------------------------|---------------------------------|
+| **Procedimento**          | 1) Acesse a página Legislação. <br> 2) Clique em "Descubra um direito que garante o seu orgulho". <br> 3) Para sair, aperte no "x" no canto superior esquerdo. |
 | **Requisitos associados** | RF04 |
-| **Resultado esperado** | Aparecer uma caixinha mostrando diferentes direitos da comunidade LGBTQIA+. |
-| **Resultado obtido** | Sucesso. |
+| **Resultado esperado**    | Aparecer uma caixinha mostrando diferentes direitos da comunidade LGBTQIA+. |
+| **Resultado obtido**      | Sucesso. |
+
 
 # Caso de Teste – CT06
 
-| **Caso de Teste** | CT06 - Quiz educativo |
-| **Procedimento** | 1) Acesse a página Legislação. |
-| | 2) Ler a pergunta. |
-| | 3) Selecione uma alternativa, o sistema verifica se está correta. |
-| | 4) Clique em "próxima" e responda as outras nove perguntas. |
-| | 5) Descubra quantas questões você acertou e quantos direitos novos você descobriu. |
+| **Caso de Teste**         | **CT06 - Quiz educativo** |
+|---------------------------|---------------------------|
+| **Procedimento**          | 1) Acesse a página Legislação. <br> 2) Ler a pergunta. <br> 3) Selecione uma alternativa, o sistema verifica se está correta. <br> 4) Clique em "próxima" e responda as outras nove perguntas. <br> 5) Descubra quantas questões você acertou e quantos direitos novos você descobriu. |
 | **Requisitos associados** | RF04 |
-| **Resultado esperado** | Informar direitos de forma interativa e permitir que o usuário testar seus conhecimentos sobre direitos dos quais já conhece. |
-| **Resultado obtido** | Sucesso. |
+| **Resultado esperado**    | Informar direitos de forma interativa e permitir que o usuário teste seus conhecimentos sobre direitos que já conhece. |
+| **Resultado obtido**      | Sucesso. |
 
 # Caso de Teste – CT07
 
-| **Caso de Teste** | CT07 - Filtrando serviços |
-| **Procedimento** | 1) Foi criado um menu de filtragem responsivo, capaz de se adaptar a diferentes dispositivos e resoluções de tela, garantindo acessibilidade e usabilidade. |
+| **Caso de Teste**         | **CT07 - Filtrando serviços** |
+|---------------------------|-------------------------------|
+| **Procedimento**          | 1) Foi criado um menu de filtragem responsivo, capaz de se adaptar a diferentes dispositivos e resoluções de tela, garantindo acessibilidade e usabilidade. |
 | **Requisitos associados** | RF05 |
-| **Resultado esperado** | Opção de seleção de serviço pelo usuário. |
-| **Resultado obtido** | Sucesso. |
+| **Resultado esperado**    | Opção de seleção de serviço pelo usuário. |
+| **Resultado obtido**      | Sucesso. |
+
 
 # Caso de Teste – CT08
 
-| **Caso de Teste** | CT08 - Filtrando serviços |
-| **Caso de Teste (Assumido)** | [Não visível na imagem] - Canais de Denúncia |
-| **Procedimento** | 1) Acesse a página Legislação. |
-| | 2) Clique em "Canais oficiais de denúncia". |
-| | 3) Conheça canais oficiais para que seja realizada denúncia. |
-| | 4) Para sair aperte no "x" no canto superior esquerdo. |
-| **Requisitos associados** | RF06 |
-| **Resultado esperado** | Aparece uma caixinha mostrando canais para fazer denúncia. |
-| **Resultado obtido** | Sucesso. |
+| **Caso de Teste**             | **CT08 - Canais de Denúncia** |
+|-------------------------------|-------------------------------|
+| **Procedimento**              | 1) Acesse a página Legislação. <br> 2) Clique em "Canais oficiais de denúncia". <br> 3) Conheça canais oficiais para realizar denúncias. <br> 4) Para sair, aperte no "x" no canto superior esquerdo. |
+| **Requisitos associados**     | RF06 |
+| **Resultado esperado**        | Aparece uma caixinha mostrando canais para fazer denúncia. |
+| **Resultado obtido**          | Sucesso. |
+
 
 
 ## Registro dos Testes de Software
