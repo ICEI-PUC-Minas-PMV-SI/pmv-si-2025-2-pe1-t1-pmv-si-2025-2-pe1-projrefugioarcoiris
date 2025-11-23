@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Young Serif&display=swap'); 
+
+
+
+:root {
+    --pink-light: #FFEDED; 
+    --pink-medium: #F7DDE8; 
+    --purple-dark: #8A2BE2; 
+    --text-dark: #333333;
+    --text-error: #D83A56; 
+}
+
+
+
+body {
+    font-family: 'Young Serif', serif; 
+    background-color: var(--pink-light); 
+    background-image: url("../assets/Imagens/0000-ImgeError.png"); 
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.error-content {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px; 
+}
+
+h1 {
+    color: var(--text-error); 
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    color: var(--text-dark);
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.error-image {
+    max-width: 80%; 
+    height: auto;
+    margin: 20px auto; 
+    display: block; 
+}
+
+
