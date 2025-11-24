@@ -236,44 +236,83 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | **Nº do Cenário** | **Descrição do Cenário** |
 |------------------:|---------------------------|
-| **1** | Acesso a lugares seguros como casas de acolhimento e conhecimento de empresas que têm vagas específicas voltadas a um público mais diverso. |
-| **2** | Encontrar apoio psicológico inclusivo e livre de preconceito, no qual o usuário se sinta confortável para compartilhar suas dores e lidar com questões emocionais com um profissional que ofereça pertencimento e segurança. |
-| **3** | Material explicativo sobre doenças sexuais e medidas a serem tomadas para se prevenir. |
-
+| **1** | Acessar casas de acolhimento mais próximas a sua região. |
+| **2** | Encontrar links com disponibilização de psicólogos inclusivos . |
+| **3** | Acessar material explicativo sobre saúde e prevenção e realizar o preenchimento do formulário para receber dicas mais dicas por email. |
+| **4** | Acessar guia de como encontrar vagas afirmativas para pessoas Lgbtqia+, preencher formulário que conecta pessoas Lgbtqia+ com vagas próximas a sua região e conhecer projetos de empregabilidade e estudo inclusivos. |
+| **5** | Conhecer mais sobre direitos Lqgbtqia+ e realizar quiz. |
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Acesso a lugares seguros como casas de acolhimento e conhecimento de empresas que têm vagas específicas voltadas a um público mais diversos.
+Cenário 1: Localizar casas de acolhimento mais próximas ao usuário.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |--------|------------------|-----------------------|--------------------------------|
-| **1** | SIM | 5 | 32.56 segundos |
-| **2** | SIM | 5 | 18.14 segundos |
-| **3** | SIM | 5 | 29.09 segundos |
-| **Média** | **100%** | **5** | **26.59 segundos** |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 9.18 segundos |
+| **1** | SIM | 5 | 00:26.47 segundos |
+| **2** | SIM | 5 | 00:29.10 segundos |
+| **3** | SIM | 5 | 00:24.30 segundos |
+| **Média** | **100%** | **5** | **00:27.59 segundos** |
+| **Tempo para conclusão pelo especialista** | SIM | 5 |  00:28.23 segundos |
 
 
-   Comentários dos usuários: Achei fácil de mexer, ele é muito intuitivo o que facilita muito.
-Não tive dificuldades e acho que ficou muito bom.
-.
+Comentários dos usuários: Achei fácil para localizar casas de acolhimento próximas a mim.
 
 
-Cenário 2: Encontrar apoio psicológico inclusivo e livre de preconceito no qual ele se sinta confortável em compartilhar suas dores e lidar com questões emocionais com um profissional que ofereça pertencimento e segurança.
+
+Cenário 2: Encontrar links com disponibilização de psicólogos inclusivos.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |--------|------------------|-----------------------|--------------------------------|
-| **1** | SIM | 5 | 32.56 segundos |
-| **2** | SIM | 5 | 18.14 segundos |
-| **3** | SIM | 5 | 29.09 segundos |
-| **Média** | **100%** | **5** | **26.59 segundos** |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 9.18 segundos |
+| **1** | SIM | 5 | 00:39.11 segundos |
+| **2** | SIM | 5 | 00:35.27 segundos |
+| **3** | SIM | 5 | 00:32.27 segundos |
+| **Média** | **100%** | **5** | ** 00:35.27  segundos** |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 00:40.47  segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+Comentários dos usuários: Foi bem fácil de localizar os links , gostei da variedade de profissionais que forma disponibilidos.
+Foi simples localizar os links e de acessar cada um , amei poder conhecer opções de terapia que são acessiveis e inclusivas.
+
+
+Cenário 3: Acessar material explicativo sobre saúde e prevenção e realizar o preenchimento do formulário para receber dicas mais dicas por email. 
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|--------|------------------|-----------------------|--------------------------------|
+| **1** | SIM | 5 | 01:21.49 segundos |
+| **2** | SIM | 5 | 02:28.10 segundos |
+| **3** | SIM | 5 | 02:24.50 segundos |
+| **Média** | **100%** | **5** | **02:25.19 segundos** |
+| **Tempo para conclusão pelo especialista** | SIM | 5 |  03:25.19 segundos |
+
+Comentários dos usuários: Página muito informativa .
+página contém bastante conteúdo interessante , não conhecia o prep e alguns dos métodos que estavam lá , consegui me inscrever de forma fácil no formulário.
+
+
+Cenário 4: Acessar guia de como encontrar vagas afirmativas para pessoas Lgbtqia+, preencher formulário que conecta pessoas Lgbtqia+ com vagas próximas a sua região e conhecer projetos de empregabilidade e estudo inclusivos. . 
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|--------|------------------|-----------------------|--------------------------------|
+| **1** | SIM | 5 | 01:02.99 segundos |
+| **2** | SIM | 5 | 02:15.02 segundos |
+| **3** | SIM | 5 | 02:50.50 segundos |
+| **Média** | **100%** | **5** | **02:30.19 segundos** |
+| **Tempo para conclusão pelo especialista** | SIM | 5 |  02:25.19 segundos |
+
+
+
+Cenário 5: Conhecer mais sobre direitos Lqgbtqia+ e realizar quiz . 
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|--------|------------------|-----------------------|--------------------------------|
+| **1** | SIM | 5 | 03:52.59 segundos |
+| **2** | SIM | 5 | 05:15.02 segundos |
+| **3** | SIM | 5 | 04:50.50 segundos |
+| **Média** | **100%** | **5** | **05:00.12 segundos** |
+| **Tempo para conclusão pelo especialista** | SIM | 5 |  05:35.19 segundos |
+
+Comentários dos usuários: Página muito interativa , amei o quiz , consegui aprender coisas novas de forma fácil .
+
 
 ## Avaliação dos Testes de Usabilidade
 
