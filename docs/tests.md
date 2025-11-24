@@ -97,7 +97,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
+Esta seção deve apresenta o relatório com as evidências dos tes tes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. 
 
 | **Caso de Teste** | CT01 - Encontrar casas de acolhimento |
 |-------------------|----------------------------------------|
@@ -196,14 +196,10 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 ## Avaliação dos Testes de Software
 
-Os testes mostraram que o sistema está funcionando corretamente e atendendo aos requisitos propostos. Identificamos como pontos fortes a estabilidade e a boa integração das funcionalidades. Também surgiram alguns pontos que podem ser aprimorados, embora não comprometam o uso.
-
-Nas próximas etapas, o grupo pretende trabalhar nesses ajustes para melhorar o desempenho e a experiência geral.
-
+Os testes mostraram que o sistema está funcionando corretamente e atendendo aos requisitos propostos. Identificamos como pontos fortes a estabilidade e a boa integração das funcionalidades. Sendo assim consideramos o sie interativo e de fácil acesso.
 
 ## Testes de unidade automatizados (Opcional)
 
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. 
 
 # Testes de Usabilidade
 
@@ -226,10 +222,6 @@ Satisfação subjetiva: responde como o usuário avalia o sistema com relação 
 Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
 
 Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 
 ## Cenários de Teste de Usabilidade
@@ -318,11 +310,10 @@ Comentários dos usuários: Página muito interativa , amei o quiz , consegui ap
 
 Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários foram todas de  5 (ótimo).
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+Com relação ao tempo para conclusão de cada tarefa/cenário, notamos que os usuários conseguiram realizar todas as ações dentro do site abaixo do tempo estipulado .
 
 
+[Acesse para ver os resultados ](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7](https://gtmetrix.com/reports/icei-puc-minas-pmv-si.github.io/Ec58o4Ja/) 
 
