@@ -315,5 +315,6 @@ Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos
 Com relação ao tempo para conclusão de cada tarefa/cenário, notamos que os usuários conseguiram realizar todas as ações dentro do site abaixo do tempo estipulado .
 
 
-[Acesse para ver os resultados ]([[https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7](https://gtmetrix.com/reports/icei-puc-minas-pmv-si.github.io/z0pBGHtS/)](https://gtmetrix.com/reports/icei-puc-minas-pmv-si.github.io/Ec58o4Ja/](https://gtmetrix.com/reports/icei-puc-minas-pmv-si.github.io/z0pBGHtS/)) 
+[Acesse para ver os resultados ]([[https://gtmetrix.com/reports/icei-puc-minas-pmv-si.github.io/Ec58o4Ja/](https://gtmetrix.com/reports/icei-puc-minas-pmv-si.github.io/z0pBGHtS/)]
+(https://gtmetrix.com/reports/icei-puc-minas-pmv-si.github.io/Ec58o4Ja/](https://gtmetrix.com/reports/icei-puc-minas-pmv-si.github.io/z0pBGHtS/)) 
 
