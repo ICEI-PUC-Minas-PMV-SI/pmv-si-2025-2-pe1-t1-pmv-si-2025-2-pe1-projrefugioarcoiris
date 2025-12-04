@@ -1,40 +1,23 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
 
-cff-version: 1.2.0
-title: Projeto web - Refúgio Arco-íris
-message: >-
-  Repositório padrão para o Eixo 1 - Projeto 1: Refúgio Arco-íris PUC Minas.
-type: software
-authors:
-  - given-names: Aluno 1
-    family-names: Vitória de Santana Silveira
-    email:vitoria.silveira@pucminas.br
-    affiliation: PUC Minas
-
-  - given-names: Aluno 2
-    name-particle: 'B '
-    family-names: Beatriz de Oliveira
-    email:beatriz.oliveira@sgn.pucminas.br
-    affiliation: PUC Minas
-
-
-    name-suffix: Prof.Marco Rodrigo Costa
-    email: marco.rodrigo@sga.pucminas.br
-    affiliation: PUC Minas
-    orcid: 'https://orcid.org/0000-0002-6193-3205'
-repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projrefugioarcoiris
-abstract: >-
-  A comunidade LGBTQIA+ enfrenta discriminação, rejeição familiar e dificuldade de acesso a serviços básicos, o que aumenta sua vulnerabilidade social. Muitas pessoas acabam desamparadas, sem informações confiáveis sobre apoio, acolhimento e cuidados essenciais.
-
-Para ajudar a reduzir esses impactos, o projeto propõe um sistema web que centralize informações úteis à comunidade, como locais de acolhimento, suporte psicológico, materiais educativos e iniciativas de inclusão profissional. A plataforma também oferecerá conteúdos sobre direitos e proteção legal, fortalecendo o acesso à cidadania.
-
-keywords:
+message: Please cite this software using these metadata. 
+title: Refúgio Arco-Íris 
+authors: 
+  - family-names: de Oliveira 
+    given-names: Beatriz
+  - family-names: de Santana Silveira
+    given-names:  Vitória 
+  - name-suffix: Professor 
+    affiliation: PUC Minas 
+    family-names: Rodrigo Costa 
+    given-names: Marco 
+keywords: 
+  - termos relacionados ao trabalho :
+  - Afiliação Puc Minas
   - Desenvolvimento Web
   - HTML
   - CSS
   - JavaScript
   - bootstrap
-  - Template
-date-released: '2025-11-17'
+repository-code:  
+version: 1.0.0 
+date-released: data de entrega do trabalho, no formato 2025-12-07
